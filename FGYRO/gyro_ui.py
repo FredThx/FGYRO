@@ -23,6 +23,7 @@ import os
 from datetime import datetime
 from FGYRO.gyro_db import *
 from FGPIO.f_thread import *
+from pathlib import Path
 
 class gyro_ui(object):
 	'''Classe pour interface graphique de visualisation des données de remuage
@@ -175,6 +176,7 @@ class gyro_ui(object):
 		logo_img = plt.imread('logo.png')
 		legende.imshow(logo_img)
 		text_legende = plt.text(0.05,0.05,u"Remutrace - Brevet déposé.")
+		self.fig.canvas.mpl_connect('key_press_event',self.press)
 		
 		
 		
@@ -209,7 +211,7 @@ class gyro_ui(object):
 			image = plt.imread(image_file)
 			self.image_plot.clear()
 			self.image_plot.imshow(image)
-			self.image_plot.text(0, 0, image_path)
+			self.image_plot.text(0, 0, Path(image_path).name)
 			if self.xyz_line:
 				self.xyz_line.remove()
 			self.xyz_line = self.xyz.vlines(date, self.xyz.get_ylim()[0]*0.75, self.xyz.get_ylim()[1]*0.75)
@@ -261,16 +263,30 @@ class gyro_ui(object):
 			self.th_lecture_image = f_thread(self.lecture_images)
 			self.th_lecture_image.start()
 	# Fin du bricolage
-	def lecture_images(self):
+	def lecture_images(self, sens = 1):
 		''' affichage de l'image suivante
 			Utilisation : en threading  : f_thread(self.lecture_images)
 		'''
-		self.xdate_index += self.vitesse_lecture
+		self.xdate_index += sens * self.vitesse_lecture
 		if self.xdate_index > len(self.images_dates):
 			self.xdate_index = 0
 			self.lecture = False
 		self.show_image()
 		time.sleep(0.05) #Pour donner la main à l'affichage
+		
+	def press(self, event):
+		''' Quand une fleche droite ou gauche est appuyée : image suivante ou précédente
+		'''
+		print("Key pressed : " + event.key)
+		sys.stdout.flush()
+		if event.key == "down":
+			self.lecture_images(1)
+		elif event.key == "up":
+			self.lecture_images(-1)
+		elif event.key == "pagedown":
+			self.lecture_images(10)
+		elif event.key == "pageup":
+			self.lecture_images(-10)
 	
 	def on_tb_vitesse_submit(self,text):
 		''' quand changement vitesse de lecture
