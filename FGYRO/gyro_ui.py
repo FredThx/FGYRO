@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook
 import matplotlib.dates as matplotlib_dates
 from matplotlib.widgets import Button
+from matplotlib.patches import Rectangle
+
 #from matplotlib.widgets import TextBox
 import datetime
 import time
@@ -46,7 +48,7 @@ class gyro_ui(object):
 		self.lecture_donnees()
 		self.scan_images(images_folder)
 		self.fig = plt.figure()
-		self.fig.canvas.set_window_title('Fileurope - FGYRO')
+		self.fig.canvas.set_window_title('Fileurope - CMP - FGYRO')
 		self.init_graphes()
 		self.lecture = False
 		self.th_lecture_image = None
@@ -158,14 +160,25 @@ class gyro_ui(object):
 		
 		self.fig.canvas.mpl_connect('button_press_event', self.on_click)
 		
-		self.bt_lecture = Button(plt.axes([0.8, 0.3, 0.05, 0.03]),'lecture')
+		self.bt_lecture = Button(plt.axes([0.65, 0.3, 0.05, 0.03]),'lecture')
 		self.bt_lecture.on_clicked(self.on_bt_lecture_click)
 		
-		self.bt_lecture10 = Button(plt.axes([0.8, 0.2, 0.05, 0.03]),'lecturex10')
+		self.bt_lecture10 = Button(plt.axes([0.65, 0.2, 0.05, 0.03]),'lecturex10')
 		self.bt_lecture10.on_clicked(self.on_bt_lecture_click10)
 		#self.tb_vitesse = TextBox(plt.axes([0.9, 0.8, 0.05, 0.03]),'Vitesse', initial = '1')
 		#self.tb_vitesse.on_submit(self.on_tb_vitesse_submit)
-	
+		
+		legende = self.fig.add_axes([0.75,0.1,0.2,0.3])
+		legende.set_axis_off()
+		#rect = Rectangle((0,0),1,1,fill=True, color= 'blue')
+		#legende.add_patch(rect)
+		logo_img = plt.imread('logo.png')
+		legende.imshow(logo_img)
+		text_legende = plt.text(0.05,0.05,u"Remutrace - Brevet déposé.")
+		
+		
+		
+		
 	def scan_images(self, rep):
 		'''Scan le repertoire des images
 			et peuble le dict self.images : {date:nom_fichier _image}

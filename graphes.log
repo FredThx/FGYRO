@@ -20009,3 +20009,291 @@
 2018-04-30 16:14:03,403 - DEBUG - Image K:\FGYRO\capture\img2018-04-30 16-14-05.463661.png at d:\cloudstation\Devlopp\FGYRO\FGYRO\gyro_ui.py ,line n°:194
 2018-10-07 10:12:24,051 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
 2018-10-07 10:12:24,194 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:64
+2018-10-07 10:24:55,421 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:24:55,545 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:64
+2018-10-07 10:25:19,700 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 46, in __init__
+    self.lecture_donnees()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 65, in lecture_donnees
+    for data in self.bdd.mesures():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 1189, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 1087, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "C:\Python27\lib\site-packages\pymongo\mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "C:\Python27\lib\site-packages\pymongo\mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "C:\Python27\lib\site-packages\pymongo\mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "C:\Python27\lib\site-packages\pymongo\topology.py", line 427, in get_server_session
+    None)
+  File "C:\Python27\lib\site-packages\pymongo\topology.py", line 208, in _select_servers_loop
+    self._condition.wait(common.MIN_HEARTBEAT_INTERVAL)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:25:19,703 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:25:19,911 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:25:19,913 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:25:31,358 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:25:31,469 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:64
+2018-10-07 10:25:31,743 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:79
+2018-10-07 10:25:31,743 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2018-10-07 10:25:31,756 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:173
+2018-10-07 10:25:32,482 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:185
+2018-10-07 10:25:37,871 - DEBUG - 2124 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:221
+2018-10-07 10:25:37,872 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 23-35-01.894081.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 10:33:29,726 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:33:29,862 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:64
+2018-10-07 10:33:30,141 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:79
+2018-10-07 10:33:30,142 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2018-10-07 10:33:30,158 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:177
+2018-10-07 10:33:31,069 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:189
+2018-10-07 10:50:29,506 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:50:29,638 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:50:29,905 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:50:29,907 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:50:29,924 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:181
+2018-10-07 10:50:30,753 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:193
+2018-10-07 10:50:31,266 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 52, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 171, in init_graphes
+    rect = Rectangle((0.8,0.4),0.1,0.1,fill=true, color= 'blue')
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:50:31,267 - ERROR - <type 'exceptions.NameError'> - global name 'true' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:50:49,017 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:50:49,150 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:50:49,457 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:50:49,457 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:50:49,483 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:181
+2018-10-07 10:50:50,460 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:193
+2018-10-07 10:50:51,038 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 52, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 173, in init_graphes
+    self.fig.add_patch(rect)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:50:51,039 - ERROR - <type 'exceptions.AttributeError'> - 'Figure' object has no attribute 'add_patch' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:52:51,065 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:52:51,180 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:52:51,430 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:52:51,433 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:52:51,447 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 10:52:52,194 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 10:52:52,706 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 52, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 171, in init_graphes
+    legende = fig.add_axes([0,8,0,4,0.2,0.6])
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:52:52,707 - ERROR - <type 'exceptions.NameError'> - global name 'fig' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:53:06,351 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:53:06,483 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:53:06,756 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:53:06,756 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:53:06,772 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 10:53:07,493 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 10:53:08,026 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 52, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 171, in init_graphes
+    legende = self.fig.add_axes([0,8,0,4,0.2,0.6])
+  File "C:\Python27\lib\site-packages\matplotlib\figure.py", line 1149, in add_axes
+    a = projection_class(self, rect, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 488, in __init__
+    self._position = mtransforms.Bbox.from_bounds(*rect)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 10:53:08,026 - ERROR - <type 'exceptions.TypeError'> - from_bounds() takes exactly 4 arguments (6 given) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 10:53:59,716 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:53:59,826 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:54:00,069 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:54:00,071 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:54:00,085 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 10:54:00,796 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 10:57:00,357 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:57:00,471 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 10:57:00,700 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 10:57:00,700 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 10:57:00,717 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 10:57:01,520 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 11:00:13,723 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:00:13,729 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:00:16,615 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:00:16,732 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:00:17,000 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:00:17,002 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:00:17,017 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 11:00:17,888 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 11:00:32,865 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:00:32,867 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:01:54,155 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:01:54,292 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:01:54,572 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:01:54,573 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:01:54,589 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:182
+2018-10-07 11:01:55,359 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 11:05:15,872 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:05:15,984 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:05:16,217 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:05:16,219 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:05:16,233 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:183
+2018-10-07 11:05:16,960 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:195
+2018-10-07 11:05:36,990 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:05:36,993 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:09:36,282 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:09:36,395 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:09:36,635 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:09:36,638 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:09:36,653 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:184
+2018-10-07 11:09:37,482 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:196
+2018-10-07 11:10:21,078 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:10:21,079 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:13:56,578 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:13:56,691 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:13:56,944 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:13:56,946 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:13:56,960 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:184
+2018-10-07 11:13:57,795 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:196
+2018-10-07 11:20:12,802 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:20:12,934 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:20:13,204 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:20:13,206 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:20:13,220 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:184
+2018-10-07 11:20:14,062 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:196
+2018-10-07 11:25:21,565 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:25:21,694 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:25:21,957 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:25:21,960 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:25:21,977 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:186
+2018-10-07 11:25:22,805 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:198
+2018-10-07 11:26:11,207 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:26:11,232 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:26:14,217 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:26:14,430 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:26:14,739 - INFO - 8768 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:26:14,740 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:26:14,759 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:186
+2018-10-07 11:26:15,589 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:198
+2018-10-07 11:26:51,944 - DEBUG - 0 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:234
+2018-10-07 11:26:51,947 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-30-36.294289.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:207
+2018-10-07 11:27:39,388 - DEBUG - 6568 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:234
+2018-10-07 11:27:39,394 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-18 04-19-20.460326.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:207
+2018-10-07 11:27:57,006 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:27:57,134 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:27:57,451 - INFO - 8765 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:27:57,453 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:27:57,467 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:186
+2018-10-07 11:27:58,309 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:198
+2018-10-07 11:28:07,721 - DEBUG - 6236 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:234
+2018-10-07 11:28:07,724 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-17 13-56-52.412259.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:207
+2018-10-07 11:28:19,312 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:28:19,316 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-10-07 11:28:39,954 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 11:28:40,115 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:66
+2018-10-07 11:28:40,407 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:81
+2018-10-07 11:28:40,408 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:96
+2018-10-07 11:28:40,423 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:186
+2018-10-07 11:28:41,286 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:198
+2018-10-07 11:33:37,530 - ERROR -   File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 61, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-10-07 11:33:37,533 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
