@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fileurope Graphes
+Comment=Visualisation données Remutrace
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=/home/pi/FGYRO/graphes.sh
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

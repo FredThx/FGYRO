@@ -1,0 +1,65 @@
+2018-02-04 16:40:15,662 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:40:15,743 - ERROR -   File "graphes_2.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd)
+ at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:183
+2018-02-04 16:40:15,744 - ERROR - <type 'exceptions.TypeError'> - __init__() takes exactly 3 arguments (2 given) at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:184
+2018-02-04 16:41:08,032 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:41:08,114 - ERROR -   File "graphes_2.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd)
+ at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:183
+2018-02-04 16:41:08,115 - ERROR - <type 'exceptions.TypeError'> - __init__() takes exactly 3 arguments (2 given) at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:184
+2018-02-04 16:49:49,950 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:49:50,027 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 16:49:50,230 - INFO - 698 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 16:49:50,231 - INFO - Correction des moyennes des vitesses angulaires : x:-129, y:92, z:222 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 16:49:50,243 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-02-04 16:51:33,202 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:51:33,282 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 16:51:33,484 - INFO - 698 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 16:51:33,485 - INFO - Correction des moyennes des vitesses angulaires : x:-129, y:92, z:222 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 16:51:33,496 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-02-04 16:53:04,845 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:53:04,920 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 16:53:05,123 - INFO - 698 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 16:53:05,124 - INFO - Correction des moyennes des vitesses angulaires : x:-129, y:92, z:222 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 16:53:05,136 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-02-04 16:59:15,618 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 16:59:15,723 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 16:59:15,930 - INFO - 710 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 16:59:15,931 - INFO - Correction des moyennes des vitesses angulaires : x:-129, y:93, z:223 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 16:59:15,945 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-02-04 17:00:10,524 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 17:00:10,599 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 17:00:10,815 - INFO - 760 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 17:00:10,816 - INFO - Correction des moyennes des vitesses angulaires : x:-198, y:167, z:160 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 17:00:10,829 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-02-04 17:00:55,699 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at build/bdist.linux-armv7l/egg/FUTIL/my_logging.py ,line n°:104
+2018-02-04 17:00:55,774 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-02-04 17:00:55,992 - INFO - 772 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-02-04 17:00:55,993 - INFO - Correction des moyennes des vitesses angulaires : x:-199, y:164, z:166 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-02-04 17:00:56,007 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-06-07 19:10:29,337 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at ../FUTIL/FUTIL/my_logging.py ,line n°:104
+2018-06-07 19:10:29,450 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-06-07 19:10:31,016 - INFO - 7214 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-06-07 19:10:31,018 - INFO - Correction des moyennes des vitesses angulaires : x:-195, y:86, z:160 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-06-07 19:10:31,133 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-07-18 19:14:59,062 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at ../FUTIL/FUTIL/my_logging.py ,line n°:104
+2018-07-18 19:14:59,147 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-07-18 19:15:00,886 - INFO - 7224 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-07-18 19:15:00,888 - INFO - Correction des moyennes des vitesses angulaires : x:-195, y:86, z:160 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-07-18 19:15:01,010 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-07-18 19:17:49,528 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at ../FUTIL/FUTIL/my_logging.py ,line n°:104
+2018-07-18 19:17:49,607 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-07-18 19:17:49,743 - INFO - 6 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-07-18 19:17:49,744 - INFO - Correction des moyennes des vitesses angulaires : x:-119, y:69, z:156 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-07-18 19:17:49,744 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-09-23 09:51:02,159 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at ../FUTIL/FUTIL/my_logging.py ,line n°:104
+2018-09-23 09:51:02,253 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-09-23 09:51:02,696 - INFO - 10 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-09-23 09:51:02,697 - INFO - Correction des moyennes des vitesses angulaires : x:-119, y:69, z:156 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-09-23 09:51:02,699 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173
+2018-09-23 10:13:42,127 - INFO - my_logging logger is started. Console : DEBUG. File (graphes_2.log) : DEBUG at ../FUTIL/FUTIL/my_logging.py ,line n°:104
+2018-09-23 10:13:42,205 - INFO - Lecture des données at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:64
+2018-09-23 10:13:44,122 - INFO - 8774 mesures trouvées. at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:79
+2018-09-23 10:13:44,126 - INFO - Correction des moyennes des vitesses angulaires : x:-660, y:15, z:-251 at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:94
+2018-09-23 10:13:44,273 - INFO - Scan du repertoir images : None ... at build/bdist.linux-armv7l/egg/FGYRO/gyro_ui.py ,line n°:173

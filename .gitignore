@@ -21,3 +21,12 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+
+#Python
+*.py[co]
+
+#FGYRO
+*.avi
+capture*/
+dist
+ressources

@@ -20007,3 +20007,5 @@
 2018-04-30 16:13:59,871 - DEBUG - Image K:\FGYRO\capture\img2018-04-30 16-14-56.445847.png at d:\cloudstation\Devlopp\FGYRO\FGYRO\gyro_ui.py ,line n°:194
 2018-04-30 16:14:03,403 - DEBUG - 68 at d:\cloudstation\Devlopp\FGYRO\FGYRO\gyro_ui.py ,line n°:221
 2018-04-30 16:14:03,403 - DEBUG - Image K:\FGYRO\capture\img2018-04-30 16-14-05.463661.png at d:\cloudstation\Devlopp\FGYRO\FGYRO\gyro_ui.py ,line n°:194
+2018-10-07 10:12:24,051 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-10-07 10:12:24,194 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:64

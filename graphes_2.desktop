@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fileurope Graphes 2
+Comment=Visualisation données Remutrace GYRO 2
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=/home/pi/FGYRO/graphes_2.sh
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;
