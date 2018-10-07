@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: FGYRO
+Version: 0.0.2
+Summary: A python lib for GYRO analyse
+Home-page: UNKNOWN
+Author: FredThx
+Author-email: FredThx@gmail.com
+License: WTFPL
+Description: FGYRO Lib  Fred GYRO lib
+        ========================================================================
+        
+        	Pour Simulation GYRO
+        
+        	Hardware :
+        		- Raspberry Pi 
+        		- camera pi
+        		- leds
+        	
+        	Software :
+        		- lib FUTIL
+        		- python
+        		- mqtt server (like mosquitto)
+        		- optional node-RED
+        		
+        
+        Installation :
+             pip install FGYRO
+        	 (create a /opt/FGYRO directory for main program)
+        	 
+        Configuration :
+        	change main.py
+        
+         automatisation (jessie) :
+        	sudo systemctl enable fgyro.service
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7

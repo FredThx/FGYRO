@@ -1,0 +1,11 @@
+[Unit]
+Description= Surveillance de GYRO
+After=network-online.target
+
+[Service]
+ExecStart=/opt/FGYRO/fgyro.sh
+User=root
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

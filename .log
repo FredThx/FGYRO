@@ -1,0 +1,66 @@
+2017-03-24 17:51:07,101 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2017-03-24 17:51:09,223 - INFO - Lecture des données
+2017-03-24 17:51:09,878 - INFO - 21971 mesures trouvées.
+2017-03-24 17:51:09,880 - INFO - Correction des moyennes des vitesses angulaires : x:-667, y:-21, z:-230
+2017-03-24 17:51:09,930 - INFO - Scan du repertoir images : Q:\Frederic\Gyro ...
+2017-03-24 17:51:57,322 - INFO - 11164 images trouvées.
+2017-03-24 17:56:42,500 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 17:56:42,503 - ERROR - <type 'exceptions.NameError'> - name 'bt_lecture' is not defined
+2017-03-24 17:59:40,901 - ERROR -   File "c:\python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "c:\python27\lib\site-packages\pymongo\periodic_executor.py", line 167, in _shutdown_executors
+    executor.join(1)
+  File "c:\python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "c:\python27\lib\threading.py", line 960, in join
+    self.__block.wait(delay)
+  File "c:\python27\lib\threading.py", line 358, in wait
+    _sleep(delay)
+
+2017-03-24 17:59:40,903 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2017-03-24 18:55:05,072 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2017-03-24 18:55:12,500 - INFO - Lecture des données
+2017-03-24 18:55:13,171 - INFO - 22174 mesures trouvées.
+2017-03-24 18:55:13,174 - INFO - Correction des moyennes des vitesses angulaires : x:-667, y:-20, z:-226
+2017-03-24 18:55:13,233 - INFO - Scan du repertoir images : Q:\Frederic\Gyro ...
+2017-03-24 18:55:56,171 - INFO - 11164 images trouvées.
+2017-03-24 18:57:01,710 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:01,711 - ERROR - <type 'exceptions.NameError'> - name 'ui_gyro' is not defined
+2017-03-24 18:57:30,957 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:30,959 - ERROR - <type 'exceptions.KeyError'> - 0
+2017-03-24 18:57:42,637 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:42,638 - ERROR - <type 'exceptions.AttributeError'> - 'gyro_ui' object has no attribute 'self'
+2017-03-24 18:57:45,085 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:45,086 - ERROR - <type 'exceptions.KeyError'> - 0
+2017-03-24 18:57:50,651 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:50,654 - ERROR - <type 'exceptions.KeyError'> - 0
+2017-03-24 18:57:57,052 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:57:57,052 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2017-03-24 18:58:27,275 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:58:27,276 - ERROR - <type 'exceptions.AttributeError'> - 'gyro_ui' object has no attribute 'images_index'
+2017-03-24 18:59:15,351 - ERROR - 
+2017-03-24 18:59:15,355 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 1)
+2017-03-24 18:59:31,559 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:59:31,562 - ERROR - <type 'exceptions.NameError'> - name 'event' is not defined
+2017-03-24 18:59:49,687 - ERROR -   File "<stdin>", line 1, in <module>
+
+2017-03-24 18:59:49,687 - ERROR - <type 'exceptions.NameError'> - name 'xdate' is not defined
+2017-03-24 19:08:46,381 - ERROR -   File "c:\python27\lib\encodings\cp850.py", line 14, in decode
+    def decode(self,input,errors='strict'):
+
+2017-03-24 19:08:46,382 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2017-03-24 19:08:50,815 - ERROR -   File "c:\python27\lib\encodings\cp850.py", line 14, in decode
+    def decode(self,input,errors='strict'):
+
+2017-03-24 19:08:50,815 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2017-03-24 19:08:53,546 - ERROR - 
+2017-03-24 19:08:53,549 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 1)
