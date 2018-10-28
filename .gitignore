@@ -30,3 +30,6 @@ $RECYCLE.BIN/
 capture*/
 dist
 ressources
+*.log
+*.log
+graphes.log
