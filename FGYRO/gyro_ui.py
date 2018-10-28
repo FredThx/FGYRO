@@ -31,6 +31,7 @@ class gyro_ui(object):
 	def __init__(self, bdd, images_folder = None):
 		'''Initialisation
 			- bdd			:	base de données gyro_db
+			- images_folder :	repertoire des images
 		'''
 		self.bdd = bdd
 		self.dates = []
@@ -78,7 +79,7 @@ class gyro_ui(object):
 				self.angle_Ys.append(atan2(data['acc_Z'],data['acc_X']) * 180 / pi)
 				self.angle_Zs.append(atan2(data['acc_X'],data['acc_Y']) * 180 / pi)
 			except Exception as e:
-				print(e)
+				logging.error(e)
 		logging.info("%s mesures trouvées."%(len(self.dates)))
 		
 		#Moyenne des vitesses angulaires pour auto-calibration
