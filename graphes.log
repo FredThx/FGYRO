@@ -22093,3 +22093,25 @@
     _default_root.tk.mainloop(n)
  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line nÂ°:183
 2018-10-07 13:27:10,789 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line nÂ°:184
+2018-10-14 14:31:21,405 - INFO - my_logging logger is started. Console : DEBUG. File (graphes.log) : DEBUG at ../FUTIL\FUTIL\my_logging.py ,line nÂ°:104
+2018-10-14 14:31:25,706 - INFO - Lecture des donnÃ©es at D:\CloudStation\Devlopp\FGYRO\FGYRO\gyro_ui.py ,line nÂ°:67
+2018-10-14 14:31:56,105 - ERROR -   File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "D:\CloudStation\Devlopp\FGYRO\FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "D:\CloudStation\Devlopp\FGYRO\FGYRO\gyro_ui.py", line 68, in lecture_donnees
+    for data in self.bdd.mesures():
+  File "c:\Python27\lib\site-packages\pymongo\cursor.py", line 1114, in next
+    if len(self.__data) or self._refresh():
+  File "c:\Python27\lib\site-packages\pymongo\cursor.py", line 1036, in _refresh
+    self.__collation))
+  File "c:\Python27\lib\site-packages\pymongo\cursor.py", line 873, in __send_message
+    **kwargs)
+  File "c:\Python27\lib\site-packages\pymongo\mongo_client.py", line 888, in _send_message_with_response
+    server = topology.select_server(selector)
+  File "c:\Python27\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "c:\Python27\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+ at ../FUTIL\FUTIL\my_logging.py ,line nÂ°:183
+2018-10-14 14:31:56,108 - ERROR - <class 'pymongo.errors.ServerSelectionTimeoutError'> - localhost:27017: [Errno 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée at ../FUTIL\FUTIL\my_logging.py ,line nÂ°:184
