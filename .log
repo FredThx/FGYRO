@@ -64,3 +64,474 @@
 2017-03-24 19:08:50,815 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
 2017-03-24 19:08:53,546 - ERROR - 
 2017-03-24 19:08:53,549 - ERROR - <type 'exceptions.SyntaxError'> - invalid syntax (<stdin>, line 1)
+2018-12-02 12:21:02,400 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:21:02,499 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:68
+2018-12-02 12:21:02,720 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:83
+2018-12-02 12:21:02,721 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:98
+2018-12-02 12:21:02,736 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 50, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 128, in lecture_donnees
+    trig_detect = datetime.timedelta(minutes=10)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:21:02,736 - ERROR - <type 'exceptions.AttributeError'> - type object 'datetime.datetime' has no attribute 'timedelta' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:22:28,466 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:22:28,466 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:22:28,471 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:68
+2018-12-02 12:22:28,471 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:68
+2018-12-02 12:22:28,694 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:83
+2018-12-02 12:22:28,694 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:83
+2018-12-02 12:22:28,697 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:98
+2018-12-02 12:22:28,697 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:98
+2018-12-02 12:22:28,717 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 50, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 128, in lecture_donnees
+    trig_detect = datetime.timedelta(minutes=10)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:22:28,717 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 50, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 128, in lecture_donnees
+    trig_detect = datetime.timedelta(minutes=10)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:22:28,720 - ERROR - <type 'exceptions.AttributeError'> - type object 'datetime.datetime' has no attribute 'timedelta' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:22:28,720 - ERROR - <type 'exceptions.AttributeError'> - type object 'datetime.datetime' has no attribute 'timedelta' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:24:31,109 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:24:31,109 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:24:31,122 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:24:31,122 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:24:37,930 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:24:38,026 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:68
+2018-12-02 12:24:38,266 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:83
+2018-12-02 12:24:38,267 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:98
+2018-12-02 12:24:38,280 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 50, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 128, in lecture_donnees
+    trig_detect = datetime.timedelta(minutes=10)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:24:38,282 - ERROR - <type 'exceptions.AttributeError'> - type object 'datetime.datetime' has no attribute 'timedelta' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:24:50,707 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:24:50,707 - ERROR - <type 'exceptions.NameError'> - name 'datetime' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:25:28,414 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:25:28,526 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:25:28,829 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:25:28,831 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:25:28,861 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 127, in lecture_donnees
+    trig_detect = datetime.timedelta(minutes=10)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:25:28,862 - ERROR - <type 'exceptions.AttributeError'> - type object 'datetime.datetime' has no attribute 'timedelta' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:27:50,532 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:27:50,536 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:27:55,312 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:27:55,407 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:27:55,627 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:27:55,628 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:27:55,641 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 130, in lecture_donnees
+    while index<len(self.dates):
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:27:55,641 - ERROR - <type 'exceptions.NameError'> - global name 'index' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:28:19,624 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:28:19,624 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:28:19,631 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:28:19,631 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:28:19,857 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:28:19,857 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:28:19,858 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:28:19,858 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:28:19,877 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 130, in lecture_donnees
+    while i<len(self.dates):
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:28:19,877 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 130, in lecture_donnees
+    while i<len(self.dates):
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:28:19,878 - ERROR - <type 'exceptions.NameError'> - global name 'index' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:28:19,878 - ERROR - <type 'exceptions.NameError'> - global name 'index' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:28:23,253 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:28:23,253 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:28:23,257 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:28:23,257 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:28:27,424 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:28:27,522 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:28:27,739 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:28:27,740 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:28:27,755 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 143, in lecture_donnees
+    self.phases.append({'debut' : date_debut_mouvement, 'fin' : date_fin_mouvement, 'acceleration_max' : acceleration_max})
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:28:27,756 - ERROR - <type 'exceptions.NameError'> - global name 'date_debut_mouvement' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:29:48,486 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:29:48,490 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:29:50,976 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:29:51,072 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:29:51,298 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:29:51,299 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:29:51,318 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:214
+2018-12-02 12:29:52,104 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:226
+2018-12-02 12:30:05,358 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:30:05,361 - ERROR - <type 'exceptions.NameError'> - name 'dd' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:34:37,118 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:34:37,118 - ERROR - <type 'exceptions.ImportError'> - No module named xlsxwriter at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:48:52,888 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:48:53,028 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:48:53,243 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:48:53,244 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:48:53,836 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:234
+2018-12-02 12:48:54,614 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:246
+2018-12-02 12:53:02,398 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:53:02,500 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:53:02,724 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:53:02,726 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:53:02,799 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 146, in lecture_donnees
+    self.export_xls()
+  File "FGYRO\gyro_ui.py", line 166, in export_xls
+    workbook.close()
+  File "C:\Python27\lib\site-packages\xlsxwriter\workbook.py", line 306, in close
+    self._store_workbook()
+  File "C:\Python27\lib\site-packages\xlsxwriter\workbook.py", line 655, in _store_workbook
+    allowZip64=self.allow_zip64)
+  File "C:\Python27\lib\zipfile.py", line 756, in __init__
+    self.fp = open(file, modeDict[mode])
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:53:02,799 - ERROR - <type 'exceptions.IOError'> - [Errno 13] Permission denied: 'gyro.xlsx' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:53:26,273 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:53:26,273 - ERROR - <type 'exceptions.NameError'> - name 'ui_gyro' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:53:37,263 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:53:37,266 - ERROR - <type 'exceptions.NameError'> - name 'gyro_ui' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:53:49,822 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:53:49,828 - ERROR - <type 'exceptions.NameError'> - name 'my_ui' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:53:53,584 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\matplotlib\_pylab_helpers.py", line 82, in destroy_all
+    gc.collect(1)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:53:53,586 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:54:00,263 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:54:00,361 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:54:00,598 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:54:00,601 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:54:00,678 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:235
+2018-12-02 12:54:01,697 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:247
+2018-12-02 12:55:57,466 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "FGYRO\gyro_ui.py", line 62, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:55:57,467 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:55:59,973 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\matplotlib\_pylab_helpers.py", line 78, in destroy_all
+    manager.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 560, in destroy
+    self.window.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1863, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 658, in destroy
+    Tk.Frame.destroy(self, *args)
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2100, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2101, in destroy
+    self.tk.call('destroy', self._w)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:55:59,976 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:56:22,467 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:56:22,601 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:56:22,825 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:56:22,825 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:56:22,869 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "FGYRO\gyro_ui.py", line 146, in lecture_donnees
+    self.export_xls()
+  File "FGYRO\gyro_ui.py", line 163, in export_xls
+    worksheet.write(row, col, str(self.phases[key]))
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:56:22,871 - ERROR - <type 'exceptions.TypeError'> - list indices must be integers, not str at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:57:15,641 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 930, in join
+    if self is current_thread():
+  File "C:\Python27\lib\threading.py", line 1151, in currentThread
+    return _active[_get_ident()]
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:57:15,644 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:57:19,872 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:57:19,970 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:57:20,186 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:57:20,187 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:57:20,266 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:235
+2018-12-02 12:57:21,101 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:247
+2018-12-02 12:59:50,312 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "FGYRO\gyro_ui.py", line 62, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 12:59:50,315 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 12:59:57,582 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 12:59:57,680 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 12:59:57,905 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 12:59:57,907 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 12:59:58,006 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:235
+2018-12-02 12:59:58,733 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:247
+2018-12-02 13:06:32,658 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "FGYRO\gyro_ui.py", line 62, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:06:32,661 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:06:34,170 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\matplotlib\_pylab_helpers.py", line 78, in destroy_all
+    manager.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 560, in destroy
+    self.window.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1863, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 658, in destroy
+    Tk.Frame.destroy(self, *args)
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2100, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2101, in destroy
+    self.tk.call('destroy', self._w)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:06:34,174 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:07:25,920 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 13:07:26,072 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 13:07:26,296 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 13:07:26,299 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 13:07:26,381 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:239
+2018-12-02 13:07:27,348 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:251
+2018-12-02 13:14:49,762 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "FGYRO\gyro_ui.py", line 62, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:14:49,763 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:16:04,299 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:16:04,301 - ERROR - <type 'exceptions.NameError'> - name 'xlswriter' is not defined at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:16:15,661 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:16:15,661 - ERROR - <type 'exceptions.ImportError'> - No module named xlswriter at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:16:50,510 - ERROR -   File "<stdin>", line 1, in <module>
+  File "C:\Python27\lib\site.py", line 446, in __call__
+    return pydoc.help(*args, **kwds)
+  File "C:\Python27\lib\pydoc.py", line 1795, in __call__
+    self.help(request)
+  File "C:\Python27\lib\pydoc.py", line 1842, in help
+    else: doc(request, 'Help on %s:')
+  File "C:\Python27\lib\pydoc.py", line 1579, in doc
+    pager(render_doc(thing, title, forceload))
+  File "C:\Python27\lib\pydoc.py", line 1396, in <lambda>
+    return lambda text: tempfilepager(plain(text), 'more <')
+  File "C:\Python27\lib\pydoc.py", line 1432, in tempfilepager
+    os.system(cmd + ' "' + filename + '"')
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:16:50,515 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:17:00,240 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:17:00,242 - ERROR - <type 'exceptions.AttributeError'> - 'module' object has no attribute 'write' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:18:25,013 - ERROR -   File "<stdin>", line 1, in <module>
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:18:25,015 - ERROR - <type 'exceptions.AttributeError'> - 'module' object has no attribute 'write' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:19:47,006 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 170, in _shutdown_executors
+    executor.join(1)
+  File "C:\Python27\lib\site-packages\pymongo\periodic_executor.py", line 96, in join
+    self._thread.join(timeout)
+  File "C:\Python27\lib\threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "C:\Python27\lib\threading.py", line 359, in wait
+    _sleep(delay)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:19:47,009 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:19:58,157 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 13:19:58,295 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 13:19:58,510 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 13:19:58,512 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 13:19:58,594 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:239
+2018-12-02 13:19:59,546 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:251
+2018-12-02 13:21:42,877 - ERROR -   File "<stdin>", line 1, in <module>
+  File "graphes.py", line 20, in <module>
+    my_ui.run()
+  File "FGYRO\gyro_ui.py", line 62, in run
+    plt.show()
+  File "C:\Python27\lib\site-packages\matplotlib\pyplot.py", line 253, in show
+    return _show(*args, **kw)
+  File "C:\Python27\lib\site-packages\matplotlib\backend_bases.py", line 208, in show
+    cls.mainloop()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 1075, in mainloop
+    Tk.mainloop()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 419, in mainloop
+    _default_root.tk.mainloop(n)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:21:42,880 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:21:45,418 - ERROR -   File "C:\Python27\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "C:\Python27\lib\site-packages\matplotlib\_pylab_helpers.py", line 78, in destroy_all
+    manager.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 560, in destroy
+    self.window.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1863, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\site-packages\matplotlib\backends\_backend_tk.py", line 658, in destroy
+    Tk.Frame.destroy(self, *args)
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2100, in destroy
+    for c in self.children.values(): c.destroy()
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 2101, in destroy
+    self.tk.call('destroy', self._w)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2018-12-02 13:21:45,434 - ERROR - <type 'exceptions.KeyboardInterrupt'> -  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2018-12-02 13:21:52,204 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2018-12-02 13:21:52,302 - INFO - Lecture des données at FGYRO\gyro_ui.py ,line n°:67
+2018-12-02 13:21:52,519 - INFO - 8573 mesures trouvées. at FGYRO\gyro_ui.py ,line n°:82
+2018-12-02 13:21:52,522 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
+2018-12-02 13:21:52,604 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:239
+2018-12-02 13:21:53,536 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:251

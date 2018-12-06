@@ -8,7 +8,7 @@ from FUTIL.my_logging import *
 
 from pymongo import MongoClient
 import calendar
-from datetime import datetime, timedelta
+import datetime
 import pytz
 
 
@@ -55,6 +55,6 @@ class gyro_db(object):
 		''' Transforme une date UTC en date locale naive
 		'''
 		timestamp = calendar.timegm(utc_dt.timetuple())
-		local_dt = datetime.fromtimestamp(timestamp)
-		assert utc_dt.resolution >= timedelta(microseconds=1)
+		local_dt = datetime.datetime.fromtimestamp(timestamp)
+		assert utc_dt.resolution >= datetime.timedelta(microseconds=1)
 		return local_dt.replace(microsecond=utc_dt.microsecond)

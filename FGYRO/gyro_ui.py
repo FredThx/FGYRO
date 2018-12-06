@@ -18,11 +18,11 @@ from matplotlib.patches import Rectangle
 #from matplotlib.widgets import TextBox
 import datetime
 import time
-from math import atan2, pi
+from math import atan2, pi, sqrt
 import os
-from datetime import datetime
 from FGYRO.gyro_db import *
 from FGPIO.f_thread import *
+#from FGYRO.gyro_3D import *
 from pathlib import Path
 
 class gyro_ui(object):
@@ -122,6 +122,53 @@ class gyro_ui(object):
 					self.angle_Zs[i] += 360
 				else:
 					self.angle_Zs[i] -= 360
+		# Recherche des phases
+		accel_detect = 1000
+		trig_detect = datetime.timedelta(minutes=10)
+		self.phases = []
+		i = 0
+		while i<len(self.dates):
+			acceleration = sqrt(self.gyro_Xs[i]**2+self.gyro_Ys[i]**2+self.gyro_Zs[i]**2)
+			if acceleration > accel_detect:
+				acceleration_max = acceleration
+				date_debut_mouvement = self.dates[i]
+				date_fin_mouvement = date_debut_mouvement
+				date_fin_trig = date_debut_mouvement + trig_detect
+				while self.dates[i] < date_fin_trig:
+					acceleration = sqrt(self.gyro_Xs[i]**2+self.gyro_Ys[i]**2+self.gyro_Zs[i]**2)
+					acceleration_max = max(acceleration_max, acceleration)
+					if acceleration > accel_detect:
+						date_fin_phase = self.dates[i]
+					i+=1
+				self.phases.append({'debut_mvt' : date_debut_mouvement, 'fin_mvt' : date_fin_mouvement, 'acceleration_max' : acceleration_max})
+			else:
+				i+=1
+		self.export_xls()
+	
+	def export_xls(self, filename = None):
+		'''Exporte les données vers un fichier excel
+		'''
+		#TODO mettre menu dans interface
+		if filename is None:
+			filename = "gyro.xlsx"
+		import xlsxwriter
+		workbook = xlsxwriter.Workbook(filename)
+		worksheet = workbook.add_worksheet("phases")
+		format_date = workbook.add_format({'num_format': 'dd/mm/yy hh:mm:ss'})
+		col = 0
+		for key in self.phases[0]:
+			row = 0
+			worksheet.write(row, col, key)
+			row +=1
+			for item in self.phases:
+				if "date" in key: 
+					worksheet.write_datetime(row, col, self.phases[row-1][key],format_date)
+				else:
+					worksheet.write(row, col, self.phases[row-1][key])
+				row+=1
+			col+=1
+		workbook.close()
+	
 
 	def init_graphes(self):
 		''' Inititialise les graphiques
@@ -130,6 +177,10 @@ class gyro_ui(object):
 		self.image_capteur_plot = self.fig.add_subplot(233)
 		self.image_capteur_plot.imshow(image_capteur)
 		
+		#
+		#
+		#self.3D = self.fig.add_subplot(233)
+		#TODO		
 		self.xyz=self.fig.add_subplot(231)
 		#self.xyz.xlabel('Temps')
 		#self.xyz.ylabel('x,y,z')
@@ -192,7 +243,7 @@ class gyro_ui(object):
 			for fichier in  os.listdir(rep):
 				if os.path.isfile(os.path.join(rep, fichier)):
 					try:
-						self.images[datetime.strptime(fichier[3:-4],"%Y-%m-%d %H-%M-%S.%f")]=os.path.join(rep, fichier)
+						self.images[datetime.datetime.strptime(fichier[3:-4],"%Y-%m-%d %H-%M-%S.%f")]=os.path.join(rep, fichier)
 					except:
 						pass
 			self.images_dates = self.images.keys()
