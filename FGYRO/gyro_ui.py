@@ -126,9 +126,11 @@ class gyro_ui(object):
 	def init_graphes(self):
 		''' Inititialise les graphiques
 		'''
-		image_capteur = plt.imread('capteur.png')
-		self.image_capteur_plot = self.fig.add_subplot(233)
-		self.image_capteur_plot.imshow(image_capteur)
+		#image_capteur = plt.imread('capteur.png')
+		#self.image_capteur_plot = self.fig.add_subplot(233)
+		#self.image_capteur_plot.imshow(image_capteur)
+		self.3D = figure3D().add_subplot(233)
+		
 		
 		self.xyz=self.fig.add_subplot(231)
 		#self.xyz.xlabel('Temps')
