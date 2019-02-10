@@ -14,13 +14,24 @@ from FUTIL.my_logging import *
 
 #TODO : reconnection mqtt
 
+# Pour améliorer la qualité de la photo et maintenir un niveau de batterie ok
+# - Eteindre la camera qu'après un timeout
+#		On peut mettre ça dans le loop_forever	(voir http://www.steves-internet-guide.com/loop-python-mqtt-client/)
+# - Si la caméra a été eteinte : augmenter pause pour mise au point (ou trouver algo du type camera.mise_au_point())
+# - Si la camera n'a pas été éteinte : plus petite pause
+# Peut-on empecher le mode auto de la camera (et ne l'utiliser que lors de la sortie de veille)
+# => on gagne le temps de passage du noir à la lumière
+# mode radar auto : une photo avec leds au mini et une photo avec led au maxi + reconstitution d'une image améliorée.
+
+
+
 class mqtt_camera(object):
 	''' Une camera raspberry pi pilotée par messages mqtt
 	'''
 	CAPTURE_IMAGE = "image"
 	CAPTURE_VIDEO = "video"
 	
-	def __init__(self, mqtt_host='127.0.0.1', mqtt_port=1883, mqtt_base_topic = 'CAM', image_folder = '', video_folder = None, video_duration = 5, leds = None, low_consumption = False):
+	def __init__(self, mqtt_host='127.0.0.1', mqtt_port=1883, mqtt_base_topic = 'CAM', image_folder = '', video_folder = None, video_duration = 5, leds = None, tempo = 1):
 		'''Initialisation
 			mqtt_host			:	mqtt host. default = localhost
 			mqtt_port			:	default = 1883
@@ -28,8 +39,8 @@ class mqtt_camera(object):
 			image_folder
 			video_forder
 			video_duration		:	duration of recording video en seconds (default : 5s)
-			leds				: 	FGPIO.led_io 
-			low_consumption		:	if True, close camera after taking picture. Save batteries
+			leds			: 	FGPIO.led_io 
+			tempo			:	temporisation (secondes) entre leds on et capture photo	
 		'''
 		self.mqtt_host = mqtt_host
 		self.mqtt_port = mqtt_port
@@ -41,7 +52,6 @@ class mqtt_camera(object):
 		self.mqtt_client.on_connect = self.on_mqtt_connect
 		self.mqtt_client.on_message = self.on_mqtt_message
 		self.mqtt_client.on_disconnect = self.on_mqtt_disconnect
-		self.low_consumption = low_consumption
 		#todo : faire getter/setter
 		self.image_folder = image_folder
 		if self.image_folder != '' and self.image_folder[-1]!= '/':
@@ -54,22 +64,22 @@ class mqtt_camera(object):
 			self.video_folder = self.image_folder
 		self.video_duration = video_duration
 		self.camera = None
-		if not self.low_consumption:
-			self.init_camera()
+		self.init_camera()
 		self.leds = leds
+		self.tempo = tempo
 		self.mqtt_connect()
 	
 	def init_camera(self):
 		'''Try to start the camera
 		'''
-		if not self.camera:
+		if not self.camera or self.camera.closed:
 			try:
 				self.camera = picamera.PiCamera()
 				self.camera.led = False
+				time.sleep(self.tempo)
 			except:
-				logging.warning("Can't open the camera.")
+				pass
 	
-			
 	def mqtt_connect(self):
 		'''Connect to the MQTT broker
 		'''
@@ -87,17 +97,16 @@ class mqtt_camera(object):
 		'''Capture image
 		'''
 		#TODO : peut etre format de date en UTC (pour éviter pbs de changement heure)
+		self.init_camera()		
 		if self.leds:
 			self.leds.on()
 			time.sleep(0.05)
 		file = self.image_folder + 'img' + str(datetime.datetime.now()).replace(':','-') + '.png'
-		self.init_camera()
 		if self.camera:
 			self.camera.capture(file, format = 'png')
+			self.camera.close()
+			logging.debug("Image %s captured"%file)
 			self.mqtt_send(self.mqtt_base_topic+'png_stored',file)
-			logging.debug("Image %s capturée"%file)
-			if self.low_consumption :
-				self.camera.close()
 		if self.leds:
 			self.leds.off()
 	
@@ -116,9 +125,7 @@ class mqtt_camera(object):
 			self.camera.start_recording(file, format = 'h264')
 			time.sleep(duration)
 			self.camera.stop_recording()
-			logging.debug("Video %s capturée"%file)
-			if self.low_consumption :
-				self.camera.close()
+		logging.debug("Video %s capturée"%file)
 		if self.leds:
 			self.leds.off()
 	
@@ -164,6 +171,7 @@ class mqtt_camera(object):
 			try:
 				self.mqtt_client.loop_forever()
 			except:
+				logging.debug("Error on mqtt_client.loop_forever()")
 				time.sleep(5)
 				
 	
