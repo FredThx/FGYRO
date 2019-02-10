@@ -13,5 +13,6 @@ pc = rpiduino_io()
 leds = led_io(pc.bcm_pin(23))
 
 
-cam = mqtt_camera(image_folder = './capture/', mqtt_base_topic = 'FILEUROPE/CAM', leds = leds)
+
+cam = mqtt_camera(mqtt_host = '10.3.141.1', image_folder = './capture/', mqtt_base_topic = 'FILEUROPE/CAM', leds = leds, tempo = 1)
 cam.loop_forever()
