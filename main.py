@@ -14,5 +14,5 @@ leds = led_io(pc.bcm_pin(23))
 
 
 
-cam = mqtt_camera(mqtt_host = '10.3.141.1', image_folder = './capture/', mqtt_base_topic = 'FILEUROPE/CAM', leds = leds, tempo = 1)
+cam = mqtt_camera(mqtt_host = '10.3.141.1', image_folder = './capture/', mqtt_base_topic = 'FILEUROPE/CAM', leds = leds, tempo = 2.5, camera_timeout = 5)
 cam.loop_forever()

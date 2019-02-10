@@ -535,3 +535,221 @@
 2018-12-02 13:21:52,522 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at FGYRO\gyro_ui.py ,line n°:97
 2018-12-02 13:21:52,604 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at FGYRO\gyro_ui.py ,line n°:239
 2018-12-02 13:21:53,536 - INFO - 6638 images trouvées. at FGYRO\gyro_ui.py ,line n°:251
+2019-02-10 11:53:23,040 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 11:53:23,124 - INFO - FGYRO.main.py start
+2019-02-10 11:53:23,206 - INFO - <FGPIO.led_io.led_io object at 0xb62906d0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 11:53:23,618 - ERROR -   File "<stdin>", line 1, in <module>
+  File "FGYRO/mqtt_camera.py", line 71, in __init__
+    self.init_camera()
+  File "FGYRO/mqtt_camera.py", line 87, in init_camera
+    if self.leds:
+
+2019-02-10 11:53:23,644 - ERROR - <type 'exceptions.AttributeError'> - 'mqtt_camera' object has no attribute 'leds'
+2019-02-10 11:54:27,906 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 11:54:28,066 - INFO - FGYRO.main.py start
+2019-02-10 11:54:28,197 - INFO - <FGPIO.led_io.led_io object at 0xb62a96d0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 11:54:30,644 - ERROR -   File "<stdin>", line 1, in <module>
+  File "FGYRO/mqtt_camera.py", line 74, in __init__
+    self.init_camera()
+  File "FGYRO/mqtt_camera.py", line 98, in init_camera
+    self.thread = f_thread(self._stop_camera)
+
+2019-02-10 11:54:30,675 - ERROR - <type 'exceptions.TypeError'> - 'module' object is not callable
+2019-02-10 11:55:45,944 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 11:55:46,107 - INFO - FGYRO.main.py start
+2019-02-10 11:55:46,225 - INFO - <FGPIO.led_io.led_io object at 0xb623d6d0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 1.
+2019-02-10 11:55:48,930 - INFO - f_thread _stop_camera started.
+2019-02-10 11:55:53,961 - ERROR -   File "/usr/local/lib/python2.7/dist-packages/FGPIO/f_thread.py", line 40, in run
+    self.fonction(*self.args, **self.kwargs)
+  File "FGYRO/mqtt_camera.py", line 108, in _stop_camera
+    self.stop_camera()
+  File "FGYRO/mqtt_camera.py", line 113, in stop_camera
+    leds.off()
+
+2019-02-10 11:55:53,986 - ERROR - <type 'exceptions.NameError'> - global name 'leds' is not defined
+2019-02-10 11:56:14,521 - ERROR - 
+2019-02-10 11:56:14,530 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 11:56:29,139 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 11:56:29,318 - INFO - FGYRO.main.py start
+2019-02-10 11:56:29,447 - INFO - <FGPIO.led_io.led_io object at 0xb62dd6d0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 1.
+2019-02-10 11:56:31,345 - INFO - f_thread _stop_camera started.
+2019-02-10 11:56:36,344 - ERROR -   File "/usr/local/lib/python2.7/dist-packages/FGPIO/f_thread.py", line 40, in run
+    self.fonction(*self.args, **self.kwargs)
+  File "FGYRO/mqtt_camera.py", line 108, in _stop_camera
+    self.stop_camera()
+  File "FGYRO/mqtt_camera.py", line 114, in stop_camera
+    self.camera.close()
+
+2019-02-10 11:56:36,365 - ERROR - <type 'exceptions.AttributeError'> - 'NoneType' object has no attribute 'close'
+2019-02-10 11:57:33,176 - ERROR - 
+2019-02-10 11:57:33,184 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 11:57:33,934 - ERROR - 
+2019-02-10 11:57:33,940 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 11:57:50,302 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 11:57:50,401 - INFO - FGYRO.main.py start
+2019-02-10 11:57:50,514 - INFO - <FGPIO.led_io.led_io object at 0xb62106b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 11:57:52,721 - INFO - f_thread _stop_camera started.
+2019-02-10 11:58:21,970 - INFO - f_thread _stop_camera started.
+2019-02-10 11:58:56,338 - ERROR -   File "<stdin>", line 1, in <module>
+
+2019-02-10 11:58:56,369 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2019-02-10 11:59:08,979 - INFO - Send terminated order to <f_thread(Thread-2, started -1292897184)>
+2019-02-10 11:59:09,018 - INFO - _stop_camera stopped after 54701 loops
+2019-02-10 12:00:24,323 - ERROR -   File "<stdin>", line 1, in <module>
+
+2019-02-10 12:00:24,351 - ERROR - <type 'exceptions.NameError'> - name 'self' is not defined
+2019-02-10 12:00:43,269 - INFO - f_thread _stop_camera started.
+2019-02-10 12:01:04,839 - INFO - f_thread _stop_camera started.
+2019-02-10 12:04:41,770 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:04:41,916 - INFO - FGYRO.main.py start
+2019-02-10 12:04:42,091 - INFO - <FGPIO.led_io.led_io object at 0xb62ef6b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:04:44,616 - INFO - f_thread _stop_camera started.
+2019-02-10 12:04:49,617 - DEBUG - Camera stopped.
+2019-02-10 12:04:49,643 - INFO - Send terminated order to <f_thread(Thread-1, started -1274096544)>
+2019-02-10 12:04:49,681 - INFO - _stop_camera stopped after 46224 loops
+2019-02-10 12:05:09,545 - INFO - f_thread _stop_camera started.
+2019-02-10 12:05:12,627 - ERROR -   File "<stdin>", line 1, in <module>
+  File "FGYRO/mqtt_camera.py", line 101, in init_camera
+    time.sleep(self.init_time_camera - time.time() + self.starting_time)
+
+2019-02-10 12:05:12,654 - ERROR - <type 'exceptions.IOError'> - [Errno 22] Invalid argument
+2019-02-10 12:05:14,543 - DEBUG - Camera stopped.
+2019-02-10 12:05:14,558 - INFO - Send terminated order to <f_thread(Thread-2, started -1274096544)>
+2019-02-10 12:05:14,574 - INFO - _stop_camera stopped after 148493 loops
+2019-02-10 12:07:06,089 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:07:06,197 - INFO - FGYRO.main.py start
+2019-02-10 12:07:06,387 - INFO - <FGPIO.led_io.led_io object at 0xb6677d50> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:07:06,945 - ERROR -   File "<stdin>", line 1, in <module>
+
+2019-02-10 12:07:06,980 - ERROR - <type 'exceptions.NameError'> - name 'mqtt_camera' is not defined
+2019-02-10 12:07:54,747 - ERROR - 
+2019-02-10 12:07:54,753 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 12:08:12,839 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:08:12,962 - INFO - FGYRO.main.py start
+2019-02-10 12:08:13,152 - INFO - <FGPIO.led_io.led_io object at 0xb626b6b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:08:15,758 - INFO - f_thread _stop_camera started.
+2019-02-10 12:08:20,758 - DEBUG - Camera stopped.
+2019-02-10 12:08:20,771 - INFO - Send terminated order to <f_thread(Thread-1, started -1274022816)>
+2019-02-10 12:08:20,786 - INFO - _stop_camera stopped after 55879 loops
+2019-02-10 12:08:24,269 - INFO - f_thread _stop_camera started.
+2019-02-10 12:08:29,285 - DEBUG - Camera stopped.
+2019-02-10 12:08:29,319 - INFO - Send terminated order to <f_thread(Thread-2, started -1274022816)>
+2019-02-10 12:08:29,336 - INFO - _stop_camera stopped after 41418 loops
+2019-02-10 12:08:38,080 - INFO - f_thread _stop_camera started.
+2019-02-10 12:08:43,081 - DEBUG - Camera stopped.
+2019-02-10 12:08:43,106 - INFO - Send terminated order to <f_thread(Thread-3, started -1274022816)>
+2019-02-10 12:08:43,140 - INFO - _stop_camera stopped after 36345 loops
+2019-02-10 12:08:50,151 - INFO - f_thread _stop_camera started.
+2019-02-10 12:08:55,147 - DEBUG - Camera stopped.
+2019-02-10 12:08:55,180 - INFO - Send terminated order to <f_thread(Thread-4, started -1274022816)>
+2019-02-10 12:08:55,202 - INFO - _stop_camera stopped after 53233 loops
+2019-02-10 12:09:46,830 - INFO - f_thread _stop_camera started.
+2019-02-10 12:09:51,838 - DEBUG - Camera stopped.
+2019-02-10 12:09:51,862 - INFO - Send terminated order to <f_thread(Thread-5, started -1274022816)>
+2019-02-10 12:09:51,893 - INFO - _stop_camera stopped after 54644 loops
+2019-02-10 12:09:53,767 - INFO - f_thread _stop_camera started.
+2019-02-10 12:09:58,784 - DEBUG - Camera stopped.
+2019-02-10 12:09:58,801 - INFO - Send terminated order to <f_thread(Thread-6, started -1274022816)>
+2019-02-10 12:09:58,842 - INFO - _stop_camera stopped after 46018 loops
+2019-02-10 12:13:04,399 - ERROR - 
+2019-02-10 12:13:04,407 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 12:13:10,553 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:13:10,653 - INFO - FGYRO.main.py start
+2019-02-10 12:13:10,747 - INFO - <FGPIO.led_io.led_io object at 0xb62f16b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:13:14,432 - DEBUG - Camera starting...
+2019-02-10 12:13:17,325 - DEBUG - Camera started.
+2019-02-10 12:13:17,349 - INFO - f_thread _stop_camera started.
+2019-02-10 12:13:22,325 - DEBUG - Camera stopped.
+2019-02-10 12:13:22,339 - INFO - Send terminated order to <f_thread(Thread-1, started -1274022816)>
+2019-02-10 12:13:22,361 - INFO - _stop_camera stopped after 142393 loops
+2019-02-10 12:13:36,167 - DEBUG - Camera starting...
+2019-02-10 12:13:38,888 - DEBUG - Camera started.
+2019-02-10 12:13:38,915 - INFO - f_thread _stop_camera started.
+2019-02-10 12:13:39,117 - DEBUG - Camera starting in progress...
+2019-02-10 12:13:40,410 - DEBUG - Camera starting in progress...
+2019-02-10 12:13:43,888 - DEBUG - Camera stopped.
+2019-02-10 12:13:43,896 - INFO - Send terminated order to <f_thread(Thread-2, started -1274022816)>
+2019-02-10 12:13:43,909 - INFO - _stop_camera stopped after 146243 loops
+2019-02-10 12:13:53,680 - DEBUG - Camera starting...
+2019-02-10 12:13:56,412 - DEBUG - Camera started.
+2019-02-10 12:13:56,443 - DEBUG - Camera starting in progress...
+2019-02-10 12:13:56,445 - INFO - f_thread _stop_camera started.
+2019-02-10 12:13:57,286 - DEBUG - Camera starting in progress...
+2019-02-10 12:14:00,563 - DEBUG - Camera starting in progress...
+2019-02-10 12:14:01,416 - DEBUG - Camera stopped.
+2019-02-10 12:14:01,430 - INFO - Send terminated order to <f_thread(Thread-3, started -1274022816)>
+2019-02-10 12:14:01,446 - INFO - _stop_camera stopped after 144153 loops
+2019-02-10 12:17:58,451 - ERROR - 
+2019-02-10 12:17:58,462 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 12:17:59,018 - ERROR - 
+2019-02-10 12:17:59,025 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 12:18:15,865 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:18:16,007 - INFO - FGYRO.main.py start
+2019-02-10 12:18:16,187 - INFO - <FGPIO.led_io.led_io object at 0xb62a16b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:18:18,752 - DEBUG - Camera status : stop.
+2019-02-10 12:18:18,801 - DEBUG - Camera status : starting.
+2019-02-10 12:18:22,322 - DEBUG - Camera status : starting.
+2019-02-10 12:18:22,359 - INFO - f_thread _stop_camera started.
+2019-02-10 12:18:27,343 - DEBUG - Camera status : stop.
+2019-02-10 12:18:27,370 - INFO - Send terminated order to <f_thread(Thread-1, started -1274022816)>
+2019-02-10 12:18:27,395 - INFO - _stop_camera stopped after 37771 loops
+2019-02-10 12:18:45,698 - DEBUG - Camera status : stop.
+2019-02-10 12:18:45,704 - DEBUG - Camera status : starting.
+2019-02-10 12:18:48,456 - DEBUG - Camera status : starting.
+2019-02-10 12:18:48,467 - INFO - f_thread _stop_camera started.
+2019-02-10 12:18:53,456 - DEBUG - Camera status : stop.
+2019-02-10 12:18:53,466 - INFO - Send terminated order to <f_thread(Thread-2, started -1274022816)>
+2019-02-10 12:18:53,484 - INFO - _stop_camera stopped after 144851 loops
+2019-02-10 12:19:21,821 - DEBUG - Camera status : stop.
+2019-02-10 12:19:21,827 - DEBUG - Camera status : starting.
+2019-02-10 12:19:24,583 - DEBUG - Camera status : starting.
+2019-02-10 12:19:24,604 - INFO - f_thread _stop_camera started.
+2019-02-10 12:19:26,820 - DEBUG - Camera status : starting.
+2019-02-10 12:19:26,844 - DEBUG - Camera status : starting.
+2019-02-10 12:19:29,584 - DEBUG - Camera status : stop.
+2019-02-10 12:19:29,591 - INFO - Send terminated order to <f_thread(Thread-3, started -1274022816)>
+2019-02-10 12:19:29,615 - INFO - _stop_camera stopped after 136222 loops
+2019-02-10 12:20:33,403 - DEBUG - Camera status : stop.
+2019-02-10 12:20:33,411 - DEBUG - Camera status : starting.
+2019-02-10 12:20:36,143 - DEBUG - Camera status : starting.
+2019-02-10 12:20:36,170 - INFO - f_thread _stop_camera started.
+2019-02-10 12:20:41,146 - DEBUG - Camera status : stop.
+2019-02-10 12:20:41,155 - INFO - Send terminated order to <f_thread(Thread-4, started -1274022816)>
+2019-02-10 12:20:41,168 - INFO - _stop_camera stopped after 136621 loops
+2019-02-10 12:21:00,221 - ERROR - 
+2019-02-10 12:21:00,227 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2019-02-10 12:21:17,770 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : DEBUG
+2019-02-10 12:21:17,907 - INFO - FGYRO.main.py start
+2019-02-10 12:21:18,082 - INFO - <FGPIO.led_io.led_io object at 0xb628c6b0> is created on pin 16 : GPIO en mode OUTPUT. Valeur = 0.
+2019-02-10 12:21:18,790 - DEBUG - Camera status : stop.
+2019-02-10 12:21:18,813 - DEBUG - Camera status : starting.
+2019-02-10 12:21:22,399 - DEBUG - Camera status : start.
+2019-02-10 12:21:22,439 - INFO - f_thread _stop_camera started.
+2019-02-10 12:21:27,411 - DEBUG - Camera status : stop.
+2019-02-10 12:21:27,455 - INFO - Send terminated order to <f_thread(Thread-1, started -1274022816)>
+2019-02-10 12:21:27,482 - INFO - _stop_camera stopped after 45496 loops
+2019-02-10 12:21:41,835 - DEBUG - Camera status : stop.
+2019-02-10 12:21:41,840 - DEBUG - Camera status : starting.
+2019-02-10 12:21:44,632 - DEBUG - Camera status : start.
+2019-02-10 12:21:44,663 - INFO - f_thread _stop_camera started.
+2019-02-10 12:21:44,701 - DEBUG - Camera status : start.
+2019-02-10 12:21:44,743 - DEBUG - Camera status : start.
+2019-02-10 12:21:45,377 - DEBUG - Camera status : start.
+2019-02-10 12:21:45,449 - DEBUG - Camera status : start.
+2019-02-10 12:21:48,042 - DEBUG - Camera status : start.
+2019-02-10 12:21:48,068 - DEBUG - Camera status : start.
+2019-02-10 12:21:50,510 - DEBUG - Camera status : start.
+2019-02-10 12:21:50,540 - DEBUG - Camera status : start.
+2019-02-10 12:21:52,931 - DEBUG - Camera status : start.
+2019-02-10 12:21:53,015 - DEBUG - Camera status : start.
+2019-02-10 12:21:54,258 - DEBUG - Camera status : start.
+2019-02-10 12:21:54,327 - DEBUG - Camera status : start.
+2019-02-10 12:21:55,118 - DEBUG - Camera status : start.
+2019-02-10 12:21:55,132 - DEBUG - Camera status : start.
+2019-02-10 12:21:55,937 - DEBUG - Camera status : start.
+2019-02-10 12:21:55,957 - DEBUG - Camera status : start.
+2019-02-10 12:21:56,749 - DEBUG - Camera status : start.
+2019-02-10 12:21:56,771 - DEBUG - Camera status : start.
+2019-02-10 12:22:01,789 - DEBUG - Camera status : stop.
+2019-02-10 12:22:01,796 - INFO - Send terminated order to <f_thread(Thread-2, started -1274022816)>
+2019-02-10 12:22:01,806 - INFO - _stop_camera stopped after 278553 loops
