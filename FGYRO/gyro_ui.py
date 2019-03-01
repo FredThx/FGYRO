@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*
 
 #TODOs
-# - Supprimer graphe AccXYZ
-# - Un graphe pour Inclinaison et un pour Rotation
 # Peux-être rajouter infos détail étape
 # Revoir axes dates pas lisible
 # metre unité des axes
@@ -209,17 +207,17 @@ class gyro_ui(object):
 		#self.3D = self.fig.add_subplot(233)
 
 		### GRAPHE XYZ
-		self.xyz=self.fig.add_subplot(231)
+		#self.xyz=self.fig.add_subplot(231)
 		#self.xyz.xlabel('Temps')
 		#self.xyz.ylabel('x,y,z')
-		self.xyz.plot(self.dates, self.acc_Xs, label='acc_X')
-		self.xyz.plot(self.dates, self.acc_Ys, label='acc_Y')
-		self.xyz.plot(self.dates, self.acc_Zs, label='acc_Z')
-		self.xyz.legend()
-		self.xyz_line = False
+		#self.xyz.plot(self.dates, self.acc_Xs, label='acc_X')
+		#self.xyz.plot(self.dates, self.acc_Ys, label='acc_Y')
+		#self.xyz.plot(self.dates, self.acc_Zs, label='acc_Z')
+		#self.xyz.legend()
+		#self.xyz_line = False
 
 		### GRAPHE GxGyGz
-		self.GxGyGz=self.fig.add_subplot(234, sharex = self.xyz)
+		self.GxGyGz=self.fig.add_subplot(231)#, sharex = self.xyz)
 		#self.GxGyGz.xlabel('Temps')
 		#self.GxGyGz.ylabel('Gx,Gy,Gz')
 		self.GxGyGz.plot(self.dates,self.gyro_Xs, label='gyro_X')
@@ -228,15 +226,17 @@ class gyro_ui(object):
 		self.GxGyGz.legend()
 		self.GxGyGz_line = False
 
-		### GRAPHE AxAyAz
-		self.AxAyAz=self.fig.add_subplot(235, sharex = self.xyz)
-		#self.AxAyAz.xlabel('Temps')
-		#self.AxAyAz.ylabel('Ax,Ay,Az')
-		self.AxAyAz.plot(self.dates,self.angle_Xs, label='Rotation')
-		self.AxAyAz.plot(self.dates,self.angle_Ys, label='Pointe')
-		#self.AxAyAz.plot(self.dates,self.angle_Zs, label='angle_Z')
-		self.AxAyAz.legend()
-		self.AxAyAz_line = False
+		### GRAPHE INCLINAISON
+		self.Inclinaison=self.fig.add_subplot(234, sharex = self.GxGyGz)
+		self.Inclinaison.plot(self.dates,self.angle_Ys, label='Inclinaison')
+		self.Inclinaison.legend()
+		self.Inclinaison_line = False
+
+		### GRAPHE ROTATION
+		self.Rotation=self.fig.add_subplot(235, sharex = self.GxGyGz)
+		self.Rotation.plot(self.dates,self.angle_Xs, label='Rotation')
+		self.Rotation.legend()
+		self.Rotation_line = False
 
 		### PHOTO
 		self.image_plot = self.fig.add_subplot(232)
@@ -305,15 +305,15 @@ class gyro_ui(object):
 			self.image_plot.set_axis_off()
 			self.image_plot.imshow(image)
 			self.image_plot.text(0, 0, "Date : " + self.dates[self.xdate_index].strftime(gyro_ui.format_date))
-			if self.xyz_line:
-				self.xyz_line.remove()
-			self.xyz_line = self.xyz.vlines(date, self.xyz.get_ylim()[0]*0.75, self.xyz.get_ylim()[1]*0.75)
-			if self.AxAyAz_line:
-				self.AxAyAz_line.remove()
-			self.AxAyAz_line = self.AxAyAz.vlines(date, self.AxAyAz.get_ylim()[0]*0.75, self.AxAyAz.get_ylim()[1]*0.75)
 			if self.GxGyGz_line:
 				self.GxGyGz_line.remove()
 			self.GxGyGz_line = self.GxGyGz.vlines(date, self.GxGyGz.get_ylim()[0]*0.75, self.GxGyGz.get_ylim()[1]*0.75)
+			if self.Inclinaison_line:
+				self.Inclinaison_line.remove()
+			self.Inclinaison_line = self.Inclinaison.vlines(date, self.Inclinaison.get_ylim()[0]*0.75, self.Inclinaison.get_ylim()[1]*0.75)
+			if self.Rotation_line:
+				self.Rotation_line.remove()
+			self.Rotation_line = self.Rotation.vlines(date, self.Rotation.get_ylim()[0]*0.75, self.Rotation.get_ylim()[1]*0.75)
 			etape = self.etapes[self.xdate_index]
 			self.etape.set_text(u"Etape n° %s"%etape)
 			self.etape_debut_mvt.set_text(u"Début : "+ self.phases[etape]["debut_mvt"].strftime(gyro_ui.format_date))
@@ -328,7 +328,7 @@ class gyro_ui(object):
 		'''
 		#logging.debug('button=%d, inaxes = %s, x=%d, y=%d, xdata=%f, ydata=%f' %(event.button, event.inaxes, event.x, event.y, event.xdata, event.ydata))
 		if len(self.images)>0:
-			if event.inaxes in [self.xyz, self.AxAyAz, self.GxGyGz] :
+			if event.inaxes in [self.GxGyGz, self.Inclinaison, self.Rotation] :
 				date = matplotlib_dates.num2date(event.xdata).replace(tzinfo=None)
 				#try:
 				self.xdate_index = self.images_dates.index(min(self.images_dates, key=lambda d: abs(d-date)))
