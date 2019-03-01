@@ -22209,3 +22209,894 @@
 2018-12-02 13:12:29,938 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 16-03-42.396975.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:214
 2018-12-02 13:12:32,743 - DEBUG - 1613 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:241
 2018-12-02 13:12:32,746 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 15-51-42.366325.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:214
+2019-03-01 16:08:53,661 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:08:55,772 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:09:32,428 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:09:32,513 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:09:32,746 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:82
+2019-03-01 16:09:32,746 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:97
+2019-03-01 16:09:33,096 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:241
+2019-03-01 16:09:33,923 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:253
+2019-03-01 16:09:55,512 - DEBUG - 3653 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:289
+2019-03-01 16:09:55,513 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 22-50-04.429888.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:262
+2019-03-01 16:13:43,944 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:13:44,028 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:13:44,250 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:82
+2019-03-01 16:13:44,250 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:97
+2019-03-01 16:13:44,326 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:241
+2019-03-01 16:13:45,081 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:253
+2019-03-01 16:30:24,931 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:30:25,017 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:30:55,980 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:30:56,072 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:33:44,339 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:33:44,424 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:33:44,661 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:88
+2019-03-01 16:33:44,661 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:103
+2019-03-01 16:33:44,747 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:247
+2019-03-01 16:33:45,506 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 16:47:34,540 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:47:34,631 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:47:38,017 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:89
+2019-03-01 16:47:38,019 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 16:47:38,029 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 117, in lecture_donnees
+    if abs(self.angle_Xs[i]-self.angle_Xs[i-1])>180:
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 16:47:38,029 - ERROR - <type 'exceptions.IndexError'> - list index out of range at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 16:48:10,757 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:48:10,851 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:48:11,066 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:89
+2019-03-01 16:48:11,068 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 16:48:11,079 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 117, in lecture_donnees
+    if abs(self.angle_Xs[i]-self.angle_Xs[i-1])>180:
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 16:48:11,081 - ERROR - <type 'exceptions.IndexError'> - list index out of range at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 16:49:23,852 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 16:49:23,938 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 16:49:24,153 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:89
+2019-03-01 16:49:24,154 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 16:49:24,223 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:248
+2019-03-01 16:49:24,963 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:260
+2019-03-01 16:49:25,332 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 214, in init_graphes
+    self.AxAyAz.plot(self.dates,self.angle_Xs, label='angle_X')
+  File "C:\Python27\lib\site-packages\matplotlib\__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 16:49:25,334 - ERROR - <type 'exceptions.ValueError'> - x and y must have same first dimension, but have shapes (8573L,) and (8572L,) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 16:52:12,901 - DEBUG - 0 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:295
+2019-03-01 16:52:12,904 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-30-36.294289.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 16:52:19,061 - DEBUG - 6507 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:295
+2019-03-01 16:52:19,063 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-17 18-12-03.322189.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 16:52:50,838 - DEBUG - 4348 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:295
+2019-03-01 16:52:50,839 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 09-33-35.032821.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 16:52:51,299 - DEBUG - 4348 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:295
+2019-03-01 16:52:51,299 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 09-33-35.032821.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 17:00:52,773 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:00:52,858 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:00:53,069 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:89
+2019-03-01 17:00:53,069 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 17:00:53,138 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:248
+2019-03-01 17:00:53,872 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:260
+2019-03-01 17:00:54,246 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 214, in init_graphes
+    self.AxAyAz.plot(self.dates,self.angle_Xs, label='angle_X')
+  File "C:\Python27\lib\site-packages\matplotlib\__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 17:00:54,246 - ERROR - <type 'exceptions.ValueError'> - x and y must have same first dimension, but have shapes (8573L,) and (8572L,) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 17:04:30,253 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:04:30,338 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:04:30,549 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:89
+2019-03-01 17:04:30,551 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 17:04:30,621 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:250
+2019-03-01 17:04:31,359 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:262
+2019-03-01 17:04:31,732 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 216, in init_graphes
+    self.AxAyAz.plot(self.dates,self.angle_Xs, label='angle_X')
+  File "C:\Python27\lib\site-packages\matplotlib\__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 17:04:31,733 - ERROR - <type 'exceptions.ValueError'> - x and y must have same first dimension, but have shapes (8573L,) and (8572L,) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 17:12:34,036 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:12:34,121 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:12:34,344 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:93
+2019-03-01 17:12:34,344 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:108
+2019-03-01 17:12:34,413 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:254
+2019-03-01 17:12:35,151 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:266
+2019-03-01 17:12:35,522 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 220, in init_graphes
+    self.AxAyAz.plot(self.dates,self.angle_Xs, label='Pointe')
+  File "C:\Python27\lib\site-packages\matplotlib\__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 17:12:35,523 - ERROR - <type 'exceptions.ValueError'> - x and y must have same first dimension, but have shapes (8573L,) and (8572L,) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 17:13:20,319 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:13:20,404 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:13:20,512 - ERROR - angle_X uncalculable : acc_y=-15108, angle_YZ=1.18887565253 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:83
+2019-03-01 17:13:20,654 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:93
+2019-03-01 17:13:20,654 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:108
+2019-03-01 17:13:20,744 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:254
+2019-03-01 17:13:21,489 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:266
+2019-03-01 17:15:18,569 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:15:18,654 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:15:18,756 - ERROR - angle_X uncalculable : acc_y=-15108, acc = 16281.040753, angle_YZ=1.18887565253 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:83
+2019-03-01 17:15:18,865 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:93
+2019-03-01 17:15:18,867 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:108
+2019-03-01 17:15:18,938 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:254
+2019-03-01 17:15:19,703 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:266
+2019-03-01 17:21:10,180 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:21:10,266 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:21:10,474 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:21:10,476 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:21:10,546 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:21:11,301 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:21:57,992 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:21:58,078 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:21:58,289 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:21:58,289 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:21:58,358 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:21:59,098 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:38:38,539 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:328
+2019-03-01 17:38:38,865 - INFO - f_thread lecture_images started. at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:36
+2019-03-01 17:38:38,865 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-31-26.566324.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:39,338 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-31-36.244058.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:39,832 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-32-36.250157.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:40,325 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-33-36.150602.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:40,815 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-34-36.122544.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:41,316 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-35-36.147279.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:41,808 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-36-36.150875.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:42,313 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-37-36.157349.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:42,815 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-38-36.348103.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:43,335 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-39-13.320736.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:43,842 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-39-36.097713.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:44,364 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-40-36.198589.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:44,894 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-41-36.250305.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:45,400 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-42-36.256235.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:45,901 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-43-36.127214.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:46,395 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-44-36.254688.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:46,901 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-45-36.106439.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:47,410 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-46-36.133902.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:47,918 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-47-36.259231.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:48,444 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-48-36.105583.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:48,961 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-49-13.330019.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:49,477 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-49-36.205287.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:49,989 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-50-36.312164.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:50,506 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-51-36.257231.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:51,003 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-52-36.307964.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:51,523 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-53-36.064339.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:52,036 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-54-36.057864.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:52,545 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-55-36.287038.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:53,059 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-56-36.138496.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:53,578 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-57-36.260307.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:54,092 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-58-36.287983.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:54,605 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-59-13.342660.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:55,141 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 15-59-36.138998.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:55,664 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-00-36.262827.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:56,173 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-01-36.362897.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:56,681 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-02-36.213747.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:57,197 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-03-36.313445.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:57,706 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-04-36.221882.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:58,217 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-05-36.137248.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:58,730 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-06-36.143280.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:59,239 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-07-36.166760.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:38:59,759 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-08-36.270884.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:00,290 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-09-13.359802.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:00,801 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-09-36.170529.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:01,305 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-10-36.119009.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:01,815 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-11-36.132481.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:02,319 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-13-38.797380.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:02,835 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-14-38.875474.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:03,349 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-15-38.996622.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:03,869 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-16-38.851102.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:04,375 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-17-38.899638.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:04,875 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-18-38.847654.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:05,382 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-19-13.365358.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:05,891 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-19-38.847376.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:06,450 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-20-38.852398.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:06,963 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-21-39.022791.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:07,492 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-22-39.028523.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:08,013 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-23-38.850819.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:08,539 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-24-38.879632.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:09,062 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-25-38.904519.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:09,565 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-26-38.853977.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:10,088 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-27-38.879078.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:10,596 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-28-38.954526.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:11,115 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-29-13.367502.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:11,628 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-29-39.004900.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:12,151 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-30-39.008203.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:12,671 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-31-38.806120.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:13,193 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-32-38.881943.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:13,727 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-33-38.912944.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:14,250 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-34-38.936602.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:14,765 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-35-39.012598.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:15,293 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-36-39.109676.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:15,805 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-37-38.862568.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:16,342 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-38-38.989012.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:16,855 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-39-13.389336.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:17,372 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-39-38.886298.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:17,898 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-40-39.012535.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:18,423 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-41-39.013628.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:18,948 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-42-39.038646.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:19,471 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-43-39.019305.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:19,984 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-44-39.019208.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:20,490 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-45-38.864637.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:21,000 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-46-38.893826.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:21,532 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-47-39.017159.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:22,043 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-48-39.021547.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:22,582 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-49-13.401543.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:23,102 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-49-38.892127.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:23,608 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-50-38.969084.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:24,141 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-51-38.921122.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:24,667 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-52-38.900394.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:25,198 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-53-39.044403.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:25,737 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-54-39.121091.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:26,252 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-55-38.971267.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:26,755 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-56-38.901093.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:27,290 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-57-39.022249.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:27,802 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-58-38.876315.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:28,309 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-59-13.403519.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:28,823 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 16-59-38.986181.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:29,377 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-00-38.878990.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:29,903 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-01-38.974729.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:30,430 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-02-39.026210.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:30,960 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-03-38.829371.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:31,484 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-04-38.905414.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:32,002 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-05-38.979693.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:32,528 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-06-39.028136.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:33,039 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-07-39.109569.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:33,555 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-08-39.130253.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:34,071 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-09-13.421192.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:34,588 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-09-38.931759.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:35,099 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-10-38.832171.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:35,630 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-11-38.831988.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:36,148 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-12-38.907931.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:36,683 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-14-41.662688.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:37,203 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-15-41.760362.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:37,724 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-16-41.611178.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:38,243 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-17-41.760418.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:38,776 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-18-41.837554.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:39,289 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-19-13.430922.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:39,799 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-19-41.633969.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:40,315 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-20-41.761881.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:40,845 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-21-41.790607.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:41,365 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-22-41.716341.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:41,898 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-23-41.713832.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:42,414 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-24-41.714566.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:42,933 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-25-41.714505.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:43,440 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-26-41.643551.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:43,957 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-27-41.619100.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:44,477 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-28-41.716237.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:44,993 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-29-13.455225.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:45,503 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-29-41.794263.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:46,033 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-30-41.568238.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:46,553 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-31-41.671183.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:47,088 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-32-41.769578.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:47,607 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-33-41.644414.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:48,121 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-34-41.719690.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:48,647 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-35-41.721158.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:49,160 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-36-41.724937.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:49,671 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-37-41.722314.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:50,190 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-38-41.773030.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:50,703 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-39-13.470477.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:51,224 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-39-41.600672.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:51,740 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-40-41.726630.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:52,256 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-41-41.824631.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:52,789 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-42-41.577527.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:53,325 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-43-41.650676.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:53,842 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-44-41.654927.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:54,358 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-45-41.776075.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:54,865 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-46-41.878474.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:55,384 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-47-41.755259.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:55,888 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-48-41.783910.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:56,400 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-49-13.479292.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:56,911 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-49-41.580406.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:57,440 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-50-41.657768.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:57,954 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-51-41.708917.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:58,460 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-52-41.757305.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:58,973 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-53-41.785395.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:39:59,486 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-54-41.733265.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:00,003 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-55-41.783192.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:00,493 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-56-41.584763.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:01,007 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-57-41.639049.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:01,528 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-58-41.786054.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:02,052 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-59-13.505000.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:02,561 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 17-59-41.790428.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:03,081 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-00-41.666489.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:03,594 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-01-41.840335.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:04,141 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-02-41.689568.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:04,658 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-03-41.791578.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:05,173 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-04-41.639660.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:05,683 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-05-41.817766.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:06,197 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-06-41.641663.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:06,717 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-07-41.666230.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:07,243 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-08-41.742377.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:07,759 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-09-13.515213.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:08,280 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-09-41.742218.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:08,799 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-10-41.819685.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:09,321 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-11-41.793949.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:09,832 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-12-41.872891.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:10,368 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-13-41.895094.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:10,888 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-15-44.471154.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:11,392 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-16-44.521374.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:11,924 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-17-44.601829.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:12,447 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-18-44.396300.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:12,969 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-19-13.520175.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:13,492 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-19-44.549621.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:14,005 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-20-44.572815.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:14,510 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-21-44.375177.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:15,020 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-22-44.423789.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:15,520 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-23-44.627056.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:16,032 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-24-44.575294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:16,559 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-25-44.403387.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:17,072 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-26-44.526166.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:17,602 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-27-44.479853.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:18,128 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-28-44.402583.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:18,653 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-29-13.543117.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:19,200 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-29-44.430065.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:19,729 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-30-44.628511.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:20,252 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-31-44.480991.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:20,778 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-32-44.534368.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:21,292 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-33-44.405352.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:21,805 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-34-44.431778.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:22,336 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-35-44.431244.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:22,854 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-36-44.410118.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:23,368 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-37-44.482937.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:23,877 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-38-44.537460.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:24,395 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-39-13.561197.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:24,918 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-39-44.533624.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:25,434 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-40-44.513688.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:25,959 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-41-44.535484.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:26,453 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-42-44.665926.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:26,964 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-43-44.486749.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:27,476 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-44-44.577902.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:27,990 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-45-44.415316.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:28,516 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-46-44.538755.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:29,092 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-47-44.539258.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:29,618 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-48-44.543680.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:30,168 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-49-13.572521.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:30,691 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-49-44.569135.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:31,207 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-50-44.640237.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:31,749 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-51-44.417132.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:32,278 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-52-44.496865.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:32,805 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-53-44.620807.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:33,332 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-54-44.393223.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:33,832 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-55-44.445792.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:34,358 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-56-44.543793.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:34,882 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-57-44.572060.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:35,421 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-58-44.350616.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:35,936 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-59-13.573873.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:36,444 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 18-59-44.546319.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:36,996 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-00-44.397117.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:37,517 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-01-44.398036.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:38,030 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-02-44.401520.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:38,569 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-03-44.423141.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:39,092 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-04-44.549162.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:39,612 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-05-44.552998.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:40,112 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-06-44.403209.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:40,638 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-07-44.401468.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:41,174 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-08-44.504312.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:41,696 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-09-13.592045.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:42,204 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-09-44.501940.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:42,717 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-10-44.503007.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:43,240 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-11-44.453614.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:43,746 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-12-44.504165.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:44,266 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-13-44.602987.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:44,773 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-14-44.431418.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:45,295 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-16-47.130320.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:45,806 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-17-47.231235.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:46,315 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-18-47.278539.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:46,822 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-19-13.602231.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:47,328 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-19-47.283857.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:47,859 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-20-47.084519.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:48,382 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-21-47.309245.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:48,894 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-22-47.156491.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:49,404 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-23-47.236665.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:49,926 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-24-47.340576.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:50,437 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-25-47.162781.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:50,947 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-26-47.284941.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:51,460 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-27-47.162633.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:51,980 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-28-47.162950.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:52,496 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-29-13.606035.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:53,028 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-29-47.162767.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:53,549 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-30-47.287703.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:54,049 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-31-47.090945.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:54,573 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-32-47.290447.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:55,105 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-33-15.690675.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:55,637 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-33-19.870748.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:56,148 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-33-23.379059.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:56,654 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-33-47.267825.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:57,171 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-34-47.288999.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:57,684 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-35-47.164929.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:58,217 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-36-47.166613.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:58,723 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-37-47.167675.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:59,230 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-38-47.167344.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:40:59,747 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-39-13.613104.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:00,279 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-39-47.192834.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:00,780 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-40-47.196958.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:01,296 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-41-47.147999.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:01,819 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-42-47.294534.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:02,331 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-43-47.146368.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:02,854 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-44-00.443149.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:03,382 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-44-47.998804.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:03,897 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-45-47.349015.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:04,420 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-46-47.300046.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:04,938 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-47-48.672837.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:05,459 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-48-47.299030.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:05,990 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-49-13.620446.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:06,509 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-49-47.397697.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:07,019 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-50-47.302726.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:07,526 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-51-47.101200.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:08,062 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-52-47.177070.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:08,585 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-53-47.298495.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:09,111 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-54-47.205322.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:09,625 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-55-47.306367.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:10,138 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-56-47.403034.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:10,665 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-57-47.179255.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:11,183 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-58-47.256049.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:11,763 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-59-13.622979.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:12,489 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 19-59-47.333678.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:13,226 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-00-47.256442.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:13,740 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-01-47.307932.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:14,259 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-02-47.309374.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:15,134 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-03-47.186150.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:15,858 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-04-47.159579.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:16,368 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-05-47.188538.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:16,874 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-06-47.313370.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:17,384 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-07-47.216332.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:17,894 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-08-47.162013.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:18,413 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-09-13.641720.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:18,947 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-09-47.187428.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:19,845 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-13 20-10-47.313393.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:276
+2019-03-01 17:41:20,266 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:322
+2019-03-01 17:41:20,267 - INFO - Send terminated order to <f_thread(Thread-1, started 16364)> at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:50
+2019-03-01 17:41:20,589 - INFO - lecture_images stopped after 309 loops at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:45
+2019-03-01 17:42:58,466 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:42:58,556 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:42:58,766 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:42:58,766 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:42:58,842 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:42:59,575 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:50:07,392 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:50:07,476 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:50:07,684 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:50:07,687 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:50:07,757 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:50:08,509 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:50:08,996 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 247, in init_graphes
+    self.no_etape = plt.text.Text(0.05,0.02,"Etape :")
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 17:50:08,996 - ERROR - <type 'exceptions.AttributeError'> - 'function' object has no attribute 'Text' at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 17:50:39,871 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:50:39,960 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:50:40,171 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:50:40,171 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:50:40,243 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:50:40,970 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:53:17,345 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:53:17,437 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:53:17,711 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:53:17,713 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:53:17,776 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:53:18,510 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:54:07,299 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:54:07,384 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:54:07,594 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:54:07,595 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:54:07,665 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:255
+2019-03-01 17:54:08,421 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:267
+2019-03-01 17:56:03,865 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:56:03,957 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:56:04,168 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:56:04,170 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:56:04,240 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 17:56:04,963 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 17:56:33,737 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:56:33,825 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:56:34,030 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:56:34,032 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:56:34,099 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 17:56:34,816 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 17:57:04,875 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:57:04,963 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:57:05,174 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:57:05,176 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:57:05,249 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 17:57:05,986 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 17:57:18,769 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:57:18,857 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:57:19,072 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:57:19,072 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:57:19,144 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 17:57:19,891 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 17:57:58,148 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 17:57:58,234 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 17:57:58,450 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 17:57:58,450 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 17:57:58,523 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 17:57:59,256 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 18:09:32,500 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:09:32,588 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:09:32,796 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:09:32,796 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:09:32,868 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:256
+2019-03-01 18:09:33,596 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:268
+2019-03-01 18:24:40,434 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:24:40,529 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:24:40,743 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:24:40,744 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:24:40,813 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:258
+2019-03-01 18:24:41,549 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:270
+2019-03-01 18:24:42,010 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 53, in __init__
+    self.init_graphes()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 239, in init_graphes
+    axe_etape = self.fig.add_axes([0.65,0,4,0.05,0.03])
+  File "C:\Python27\lib\site-packages\matplotlib\figure.py", line 1149, in add_axes
+    a = projection_class(self, rect, **kwargs)
+  File "C:\Python27\lib\site-packages\matplotlib\axes\_base.py", line 488, in __init__
+    self._position = mtransforms.Bbox.from_bounds(*rect)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 18:24:42,012 - ERROR - <type 'exceptions.TypeError'> - from_bounds() takes exactly 4 arguments (5 given) at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 18:25:21,605 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:25:21,693 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:25:21,911 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:25:21,913 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:25:21,983 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:258
+2019-03-01 18:25:22,805 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:270
+2019-03-01 18:26:15,012 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:26:15,098 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:26:15,316 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:26:15,318 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:26:15,387 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:26:16,138 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:34:04,607 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:34:04,693 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:34:04,904 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:34:04,904 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:34:04,977 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:34:05,746 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:34:10,398 - DEBUG - 2061 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:34:10,401 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-36-58.983147.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:06,108 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:35:06,194 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:35:06,411 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:35:06,414 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:35:06,483 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:35:07,410 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:35:12,878 - DEBUG - 2322 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:12,880 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-31-09.416487.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:15,224 - DEBUG - 2569 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:15,226 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 06-26-20.492388.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:16,414 - DEBUG - 2569 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:16,415 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 06-26-20.492388.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:17,220 - DEBUG - 2380 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:17,223 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 03-25-12.181115.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:18,019 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:18,020 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:18,759 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:18,760 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:19,148 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:19,150 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:19,499 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:19,500 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:20,207 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:20,210 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:20,594 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:20,595 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:20,947 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:20,947 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:21,296 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:21,298 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:23,999 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:35:24,851 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:35:25,053 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:35:25,392 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:35:35,565 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:35:35,650 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:35:35,865 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:35:35,867 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:35:35,937 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:35:36,657 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:35:41,174 - DEBUG - 1918 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:41,176 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-30-53.482223.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:42,619 - DEBUG - 2022 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:42,621 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-00-58.989079.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:43,013 - DEBUG - 2022 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:43,015 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-00-58.989079.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:43,368 - DEBUG - 2022 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:43,369 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-00-58.989079.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:43,729 - DEBUG - 2022 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:43,729 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-00-58.989079.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:44,084 - DEBUG - 1664 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:44,085 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 16-36-42.547355.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:35:58,826 - DEBUG - 4542 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:35:58,828 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 12-29-17.798513.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:29,816 - DEBUG - 2668 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:29,819 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-54-25.962970.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:30,213 - DEBUG - 2644 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:30,214 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-35-23.252526.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:30,591 - DEBUG - 2644 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:30,592 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-35-23.252526.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:30,946 - DEBUG - 2644 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:30,946 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-35-23.252526.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:31,302 - DEBUG - 2726 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:31,302 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 08-47-25.872541.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:31,671 - DEBUG - 2726 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:31,671 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 08-47-25.872541.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:32,039 - DEBUG - 2726 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:32,039 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 08-47-25.872541.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:32,651 - DEBUG - 2726 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:36:32,653 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 08-47-25.872541.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:36:33,002 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:33,255 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:33,259 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:33,513 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:33,516 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:33,763 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:33,769 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:34,019 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:34,025 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:34,273 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:34,279 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:36:34,532 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:327
+2019-03-01 18:36:34,536 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:333
+2019-03-01 18:37:51,338 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:37:51,426 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:37:51,677 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:37:51,678 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:37:51,746 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:37:52,480 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:37:58,328 - DEBUG - 4284 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:37:58,331 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 08-34-32.068316.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:38:01,601 - DEBUG - 3383 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:38:01,602 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 18-44-53.072241.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:40:13,698 - DEBUG - 1960 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:40:13,700 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 21-03-56.425444.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:11,078 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:42:11,167 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:42:11,387 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:42:11,388 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:42:11,459 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:42:12,203 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:42:16,506 - DEBUG - 2041 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:16,507 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 22-18-58.947232.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:19,407 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:19,408 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:19,960 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:19,961 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:20,244 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:20,246 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:20,473 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:20,474 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:20,706 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:20,707 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:20,947 - DEBUG - 2202 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:20,948 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-43-04.538925.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:38,088 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:42:38,173 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:42:38,388 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:42:38,390 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:42:38,460 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:42:39,190 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:42:44,803 - DEBUG - 1773 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:44,806 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 18-17-48.180359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:47,730 - DEBUG - 1773 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:47,732 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 18-17-48.180359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:49,609 - DEBUG - 1773 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:49,612 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 18-17-48.180359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:49,924 - DEBUG - 1773 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:49,927 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 18-17-48.180359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:42:50,158 - DEBUG - 1773 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:42:50,161 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 18-17-48.180359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:43:51,625 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:43:51,710 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:43:51,923 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:43:51,924 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:43:51,993 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:259
+2019-03-01 18:43:52,720 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:271
+2019-03-01 18:43:57,036 - DEBUG - 2791 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:43:57,039 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 09-44-28.630311.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:43:58,454 - DEBUG - 2322 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:43:58,456 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-31-09.416487.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:43:58,849 - DEBUG - 2322 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:43:58,851 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-31-09.416487.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:43:59,132 - DEBUG - 2322 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:43:59,134 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-31-09.416487.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:43:59,321 - DEBUG - 2322 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:308
+2019-03-01 18:43:59,322 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-31-09.416487.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:280
+2019-03-01 18:48:25,315 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:48:25,407 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:48:25,621 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:48:25,621 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:48:25,628 - ERROR -   File "C:\Fileurope\FGYRO\graphes.py", line 19, in <module>
+    my_ui = gyro_ui(mybdd,'c:\\fileurope\\FGYRO\\capture')
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 49, in __init__
+    self.lecture_donnees()
+  File "C:\Fileurope\FGYRO\FGYRO\gyro_ui.py", line 161, in lecture_donnees
+    self.etapes[i]=len(self.phases)
+ at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
+2019-03-01 18:48:25,628 - ERROR - <type 'exceptions.IndexError'> - list assignment index out of range at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 18:49:02,885 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:49:02,973 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:49:03,184 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:49:03,186 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:49:03,259 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:261
+2019-03-01 18:49:04,007 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:273
+2019-03-01 18:51:09,006 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:09,007 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:10,568 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:10,569 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:10,921 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:10,924 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,151 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,153 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,292 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,292 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,463 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,466 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,618 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,621 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,762 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,762 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:11,950 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:11,951 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:12,117 - DEBUG - 2647 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:12,118 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 07-38-23.230294.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:25,214 - DEBUG - 5059 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:25,217 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 20-18-02.686785.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:25,467 - DEBUG - 5059 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:25,470 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 20-18-02.686785.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:25,624 - DEBUG - 5059 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:25,625 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 20-18-02.686785.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:25,806 - DEBUG - 5059 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:25,806 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 20-18-02.686785.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:51:25,934 - DEBUG - 5059 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:310
+2019-03-01 18:51:25,936 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 20-18-02.686785.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:52:53,263 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:52:53,365 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:52:53,582 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:52:53,584 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:52:53,657 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:261
+2019-03-01 18:52:54,411 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:273
+2019-03-01 18:52:59,743 - DEBUG - 3582 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:52:59,744 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 21-46-01.727053.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:01,338 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:01,339 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:01,782 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:01,782 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:02,194 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:02,196 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:04,056 - DEBUG - 1943 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:04,059 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 20-48-56.263174.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:06,681 - DEBUG - 1293 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:06,684 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 11-11-28.677172.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:09,085 - DEBUG - 3403 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:53:09,088 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-02-53.230819.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:24,431 - INFO - Lecture at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 18:53:24,779 - INFO - f_thread lecture_images started. at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:36
+2019-03-01 18:53:24,780 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-03-53.082641.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:25,252 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-05-56.009239.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:25,750 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-06-55.836580.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:26,265 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-07-55.860055.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:26,767 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-08-55.887083.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:27,279 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-09-16.673337.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:27,812 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-09-56.034697.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:28,328 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-10-55.963924.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:28,845 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-11-55.810674.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:29,361 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-12-55.859580.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:29,885 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-13-55.813780.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:30,411 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-14-55.811133.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:30,930 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-15-55.913706.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:31,446 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-16-56.013359.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:31,970 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 19-17-56.090869.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 18:53:32,312 - INFO - Pause at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 18:53:32,315 - INFO - Send terminated order to <f_thread(Thread-1, started 15884)> at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:50
+2019-03-01 18:53:32,516 - INFO - lecture_images stopped after 15 loops at C:\Python27\lib\site-packages\FGPIO\f_thread.py ,line n°:45
+2019-03-01 18:53:50,849 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 18:53:50,937 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:67
+2019-03-01 18:53:51,150 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:94
+2019-03-01 18:53:51,150 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:109
+2019-03-01 18:53:51,220 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:261
+2019-03-01 18:53:51,953 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:273
+2019-03-01 18:57:47,019 - DEBUG - 1495 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 18:57:47,020 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 14-12-36.906693.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 19:01:11,573 - DEBUG - 4601 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:311
+2019-03-01 19:01:11,575 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 13-22-43.390306.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:282
+2019-03-01 19:09:24,256 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:09:24,355 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:78
+2019-03-01 19:09:24,572 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:105
+2019-03-01 19:09:24,573 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:120
+2019-03-01 19:09:24,644 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:279
+2019-03-01 19:09:25,388 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:291
+2019-03-01 19:09:31,088 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:329
+2019-03-01 19:09:31,088 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:10:51,482 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:10:51,565 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:78
+2019-03-01 19:10:51,779 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:105
+2019-03-01 19:10:51,779 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:120
+2019-03-01 19:10:51,861 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:279
+2019-03-01 19:10:52,602 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:291
+2019-03-01 19:10:57,148 - DEBUG - 3780 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:329
+2019-03-01 19:10:57,151 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 00-46-09.981161.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:11:25,164 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:11:25,259 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:78
+2019-03-01 19:11:25,469 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:105
+2019-03-01 19:11:25,470 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:120
+2019-03-01 19:11:25,546 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:279
+2019-03-01 19:11:26,292 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:291
+2019-03-01 19:11:31,596 - DEBUG - 3243 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:329
+2019-03-01 19:11:31,598 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 16-38-47.696402.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:12:36,092 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:12:36,180 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:78
+2019-03-01 19:12:36,390 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:105
+2019-03-01 19:12:36,391 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:120
+2019-03-01 19:12:36,463 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:279
+2019-03-01 19:12:37,193 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:291
+2019-03-01 19:12:40,982 - DEBUG - 3005 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 19:12:40,983 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 13-02-39.342425.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:12:42,256 - DEBUG - 4304 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 19:12:42,259 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 08-52-50.281317.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:12:43,892 - DEBUG - 1212 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 19:12:43,894 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 09-57-25.833189.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:12:44,755 - DEBUG - 4797 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 19:12:44,756 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-16 16-20-51.574822.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
+2019-03-01 19:12:46,298 - DEBUG - 1451 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:330
+2019-03-01 19:12:46,299 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 13-35-37.036373.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:300
