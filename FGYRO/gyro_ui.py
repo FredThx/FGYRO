@@ -3,7 +3,6 @@
 
 #TODOs
 # - Supprimer graphe AccXYZ
-# - Changer le nom du fichier par date
 # - Un graphe pour Inclinaison et un pour Rotation
 # - Détail infos étapes
 # Peux-être rajouter infos
@@ -302,7 +301,7 @@ class gyro_ui(object):
 			self.image_plot.clear()
 			self.image_plot.set_axis_off()
 			self.image_plot.imshow(image)
-			self.image_plot.text(0, 0, Path(image_path).name)
+			self.image_plot.text(0, 0, "Date : " + self.dates[self.xdate_index].strftime("%d %b %Y %H:%M:%S"))
 			if self.xyz_line:
 				self.xyz_line.remove()
 			self.xyz_line = self.xyz.vlines(date, self.xyz.get_ylim()[0]*0.75, self.xyz.get_ylim()[1]*0.75)
@@ -324,12 +323,12 @@ class gyro_ui(object):
 		if len(self.images)>0:
 			if event.inaxes in [self.xyz, self.AxAyAz, self.GxGyGz] :
 				date = matplotlib_dates.num2date(event.xdata).replace(tzinfo=None)
-				try:
-					self.xdate_index = self.images_dates.index(min(self.images_dates, key=lambda d: abs(d-date)))
-					logging.debug(self.xdate_index)
-					self.show_image()
-				except:
-					pass
+				#try:
+				self.xdate_index = self.images_dates.index(min(self.images_dates, key=lambda d: abs(d-date)))
+				logging.debug(self.xdate_index)
+				self.show_image()
+			#	except:
+			#		pass
 	# Attention : bricolage+++
 	def on_bt_lecture_click10(self, event):
 		self.vitesse_lecture = 10
