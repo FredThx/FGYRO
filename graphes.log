@@ -23205,3 +23205,76 @@
     return handler(fname)
  at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:183
 2019-03-01 19:24:42,851 - ERROR - <type 'exceptions.IOError'> - error reading PNG header at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:184
+2019-03-01 19:38:47,075 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:38:47,164 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:38:47,375 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:38:47,377 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:38:47,446 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:38:48,223 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:38:55,553 - DEBUG - 2457 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:38:55,555 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-37-14.825580.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:38:57,426 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:38:57,427 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:38:57,660 - DEBUG - 2421 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:38:57,661 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 04-01-14.772623.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:41:12,227 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:41:12,322 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:41:12,532 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:41:12,533 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:41:12,608 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:41:13,359 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:41:23,240 - DEBUG - 2349 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:41:23,243 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 02-57-12.161128.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:43:11,973 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:43:12,063 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:43:12,273 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:43:12,275 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:43:12,345 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:43:13,081 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:43:33,543 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:43:33,637 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:43:33,849 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:43:33,851 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:43:33,924 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:43:34,658 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:44:27,118 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:44:27,119 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:44:27,219 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:44:27,219 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:44:27,446 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:44:27,447 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:44:27,457 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:44:27,457 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:44:27,519 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:44:27,532 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:44:28,490 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:44:39,723 - DEBUG - 2182 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:44:39,726 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 00-25-04.524904.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:46:38,559 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:46:38,653 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:46:38,871 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:46:38,874 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:46:38,946 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:46:39,684 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:47:46,506 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:47:46,592 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:47:46,799 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:47:46,801 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:47:46,869 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:47:47,599 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:48:17,276 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:48:17,364 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:48:17,575 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:48:17,575 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:48:17,647 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:48:18,365 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:48:29,665 - DEBUG - 2963 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:48:29,667 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-15 12-23-36.522817.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302
+2019-03-01 19:48:58,614 - INFO - my_logging logger is started. Console : DEBUG. File (C:\Fileurope\FGYRO\graphes.log) : DEBUG at build\bdist.win-amd64\egg\FUTIL\my_logging.py ,line n°:104
+2019-03-01 19:48:58,697 - INFO - Lecture des données at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:77
+2019-03-01 19:48:58,917 - INFO - 8573 mesures trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:104
+2019-03-01 19:48:58,917 - INFO - Correction des moyennes des vitesses angulaires : x:-661, y:15, z:-251 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:119
+2019-03-01 19:48:58,990 - INFO - Scan du repertoir images : c:\fileurope\FGYRO\capture ... at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:281
+2019-03-01 19:48:59,717 - INFO - 6638 images trouvées. at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:293
+2019-03-01 19:49:06,845 - DEBUG - 1512 at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:336
+2019-03-01 19:49:06,848 - DEBUG - Image c:\fileurope\FGYRO\capture\img2018-07-14 14-27-36.815653.png at C:\Fileurope\FGYRO\FGYRO\gyro_ui.py ,line n°:302

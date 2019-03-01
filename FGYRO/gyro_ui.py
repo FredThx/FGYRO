@@ -4,8 +4,7 @@
 #TODOs
 # - Supprimer graphe AccXYZ
 # - Un graphe pour Inclinaison et un pour Rotation
-# - Détail infos étapes
-# Peux-être rajouter infos
+# Peux-être rajouter infos détail étape
 # Revoir axes dates pas lisible
 # metre unité des axes
 # Des titres
@@ -37,6 +36,7 @@ from pathlib import Path
 class gyro_ui(object):
 	'''Classe pour interface graphique de visualisation des données de remuage
 	'''
+	format_date = "%d %b %Y %H:%M:%S"
 	def __init__(self, bdd, images_folder = None):
 		'''Initialisation
 			- bdd			:	base de données gyro_db
@@ -253,12 +253,15 @@ class gyro_ui(object):
 		#self.tb_vitesse.on_submit(self.on_tb_vitesse_submit)
 
 		### Détail étape
-		axe_etape = self.fig.add_axes([0.65, 0.4, 0.05, 0.03])
+		axe_etape = self.fig.add_axes([0.65, 0.4, 0.03, 0.03])
 		axe_etape.set_axis_off()
-		self.etape = plt.text(0,0,u'Etape n° ?')
+		self.etape = plt.text(0,3,u'Etape n° ?')
+		self.etape_debut_mvt = plt.text(0,2,u'Début : --')
+		self.etape_fin_mvt = plt.text(0,1,u'Fin : --')
+		self.etape_acceleration_max = plt.text(0,0,u'Accélération max : --')
 
 		### LEGENDE : FILEUROPE-CMP
-		legende = self.fig.add_axes([0.75,0.1,0.2,0.3])
+		legende = self.fig.add_axes([0.75,0.07,0.2,0.3])
 		legende.set_axis_off()
 		#rect = Rectangle((0,0),1,1,fill=True, color= 'blue')
 		#legende.add_patch(rect)
@@ -301,7 +304,7 @@ class gyro_ui(object):
 			self.image_plot.clear()
 			self.image_plot.set_axis_off()
 			self.image_plot.imshow(image)
-			self.image_plot.text(0, 0, "Date : " + self.dates[self.xdate_index].strftime("%d %b %Y %H:%M:%S"))
+			self.image_plot.text(0, 0, "Date : " + self.dates[self.xdate_index].strftime(gyro_ui.format_date))
 			if self.xyz_line:
 				self.xyz_line.remove()
 			self.xyz_line = self.xyz.vlines(date, self.xyz.get_ylim()[0]*0.75, self.xyz.get_ylim()[1]*0.75)
@@ -311,7 +314,11 @@ class gyro_ui(object):
 			if self.GxGyGz_line:
 				self.GxGyGz_line.remove()
 			self.GxGyGz_line = self.GxGyGz.vlines(date, self.GxGyGz.get_ylim()[0]*0.75, self.GxGyGz.get_ylim()[1]*0.75)
-			self.etape.set_text(u"Etape n° %s"%self.etapes[self.xdate_index])
+			etape = self.etapes[self.xdate_index]
+			self.etape.set_text(u"Etape n° %s"%etape)
+			self.etape_debut_mvt.set_text(u"Début : "+ self.phases[etape]["debut_mvt"].strftime(gyro_ui.format_date))
+			self.etape_fin_mvt.set_text(u"Fin : "+ self.phases[etape]["fin_mvt"].strftime(gyro_ui.format_date))
+			self.etape_acceleration_max.set_text(u"Accél. max : %s"%self.phases[etape]["acceleration_max"])
 			# TODO et plus d'info
 			self.fig.canvas.draw()	# C'est ici que c'est long (0.3 s)
 
