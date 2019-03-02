@@ -4,8 +4,7 @@
 #TODOs
 # Peux-être rajouter infos détail étape
 # Revoir axes dates pas lisible
-# metre unité des axes
-# Des titres
+
 
 #Pour travailler sur les sources
 import sys
@@ -16,10 +15,11 @@ from pymongo import MongoClient
 import matplotlib
 import matplotlib.text as matplotlib_text
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import matplotlib.cbook as cbook
-import matplotlib.dates as matplotlib_dates
 from matplotlib.widgets import Button
 from matplotlib.patches import Rectangle
+import matplotlib.ticker as ticker
 
 #from matplotlib.widgets import TextBox
 import datetime
@@ -35,6 +35,13 @@ class gyro_ui(object):
 	'''Classe pour interface graphique de visualisation des données de remuage
 	'''
 	format_date = "%d %b %Y %H:%M:%S"
+	date_formatter =  mdates.DateFormatter("%d %b") # For axis
+	#date_formatter =  ticker.FormatStrFormatter('%d %b') # for axis
+	ratio_gyro = 131.0 #Gyro : 1/131 degrés/secondes
+	ratio_acceleration = 16384.0 #Acceleration : 1/16384 g (g=9.81 N.s-2)
+	seuil_gyro_mvt = 50.0 / 131.0 #Seuil au delà duquel une vitesse angulaire est considéré comme un mvt
+	accel_detect = 1000.0 / 131.0
+	trig_detect = datetime.timedelta(minutes=10)
 	def __init__(self, bdd, images_folder = None):
 		'''Initialisation
 			- bdd			:	base de données gyro_db
@@ -60,7 +67,6 @@ class gyro_ui(object):
 		self.init_graphes()
 		self.lecture = False
 		self.th_lecture_image = None
-		matplotlib.use('GTKAgg')
 		self.vitesse_lecture = 1
 
 	def run(self):
@@ -71,16 +77,16 @@ class gyro_ui(object):
 	def lecture_donnees(self):
 		'''lecture de la base de données et correction des données
 		'''
-		logging.info('Lecture des données')
+		logging.info('Lecture des donnees')
 		for data in self.bdd.mesures():
 			try:
 				self.dates.append(gyro_db.utc_to_local(data['date']))
-				self.acc_Xs.append(data['acc_X'])
-				self.acc_Ys.append(data['acc_Y'])
-				self.acc_Zs.append(data['acc_Z'])
-				self.gyro_Xs.append(data['gyro_X'])
-				self.gyro_Ys.append(data['gyro_Y'])
-				self.gyro_Zs.append(data['gyro_Z'])
+				self.acc_Xs.append(data['acc_X']/gyro_ui.ratio_acceleration)
+				self.acc_Ys.append(data['acc_Y']/gyro_ui.ratio_acceleration)
+				self.acc_Zs.append(data['acc_Z']/gyro_ui.ratio_acceleration)
+				self.gyro_Xs.append(data['gyro_X']/gyro_ui.ratio_gyro)
+				self.gyro_Ys.append(data['gyro_Y']/gyro_ui.ratio_gyro)
+				self.gyro_Zs.append(data['gyro_Z']/gyro_ui.ratio_gyro)
 				#Calculs angulaires
 				acc = sqrt(data['acc_X']**2+data['acc_Y']**2+data['acc_Z']**2)
 				angle_YZ = acos(data['acc_X']/acc)
@@ -98,7 +104,17 @@ class gyro_ui(object):
 				#self.angle_Zs.append(atan2(data['acc_X'],data['acc_Y']) * 180 / pi)
 			except Exception as e:
 				print(e)
-		logging.info("%s mesures trouvées."%(len(self.dates)))
+			# logging.debug("Date : %s, acc_X : %s, acc_Y : %s, acc_Z : %s, gyro_X : %s, gyro_Y : %s, gyro_Z : %s, angle_X : %s, angle_Y : %s"%( \
+			# 		self.dates[-1], \
+			# 		self.acc_Xs[-1], \
+			# 		self.acc_Ys[-1], \
+			# 		self.acc_Zs[-1], \
+			# 		self.gyro_Xs[-1], \
+			# 		self.gyro_Ys[-1], \
+			# 		self.gyro_Zs[-1], \
+			# 		self.angle_Xs[-1], \
+			# 		self.angle_Ys[-1]))
+		logging.info("%s mesures trouvees."%(len(self.dates)))
 
 		#Moyenne des vitesses angulaires pour auto-calibration
 		try:
@@ -114,55 +130,39 @@ class gyro_ui(object):
 		except:
 			corr_gyro_Zs = 0
 		logging.info("Correction des moyennes des vitesses angulaires : x:%s, y:%s, z:%s"%(corr_gyro_Xs, corr_gyro_Ys, corr_gyro_Zs))
-
+		nb_supp_mesures_angle = 0
 		for i in range(len(self.dates)):
 			#Correction des vitesses angulaires
 			self.gyro_Xs[i] -= corr_gyro_Xs
 			self.gyro_Ys[i] -= corr_gyro_Ys
 			self.gyro_Zs[i] -= corr_gyro_Zs
 			# "Suppression" des mesures d'angle quand il y a une vitesses angulaire
-			if i> 0 and (abs(self.gyro_Xs[i]) > 50 or abs(self.gyro_Ys[i]) > 50 or abs(self.gyro_Zs[i]) > 50):
+			if i> 0 and (abs(self.gyro_Xs[i]) > gyro_ui.seuil_gyro_mvt or abs(self.gyro_Ys[i]) > gyro_ui.seuil_gyro_mvt or abs(self.gyro_Zs[i]) > gyro_ui.seuil_gyro_mvt):
 				self.angle_Xs[i] = self.angle_Xs[i-1]
 				self.angle_Ys[i] = self.angle_Ys[i-1]
 				#self.angle_Zs[i] = self.angle_Zs[i-1]
-
-			# Gestion des angles qui passent de pi à -pi
-			#if abs(self.angle_Xs[i]-self.angle_Xs[i-1])>180:
-			#	if self.angle_Xs[i] < self.angle_Xs[i-1]:
-			#		self.angle_Xs[i] += 360
-			#	else:
-			#		self.angle_Xs[i] -= 360
-			#if abs(self.angle_Ys[i]-self.angle_Ys[i-1])>180:
-			#	if self.angle_Ys[i] < self.angle_Ys[i-1]:
-			#		self.angle_Ys[i] += 360
-			#	else:
-			#		self.angle_Ys[i] -= 360
-			#if abs(self.angle_Zs[i]-self.angle_Zs[i-1])>180:
-			#	if self.angle_Zs[i] < self.angle_Zs[i-1]:
-			#		self.angle_Zs[i] += 360
-			#	else:
-			#		self.angle_Zs[i] -= 360
+				nb_supp_mesures_angle += 1
+		logging.info("%s mesures d'angle supprimees"%nb_supp_mesures_angle)
 
 		# Recherche des phases
-		accel_detect = 1000
-		trig_detect = datetime.timedelta(minutes=10)
 		self.phases = [] # Un enregistrement par phase
 		self.etapes = [] # A chaque point, la phase correspondante
 		i = 0
 		while i<len(self.dates):
 			acceleration = sqrt(self.gyro_Xs[i]**2+self.gyro_Ys[i]**2+self.gyro_Zs[i]**2)
-			if acceleration > accel_detect:
+			if acceleration > gyro_ui.accel_detect:
 				acceleration_max = acceleration
 				date_debut_mouvement = self.dates[i]
 				date_fin_mouvement = date_debut_mouvement
-				date_fin_trig = date_debut_mouvement + trig_detect
+				date_fin_trig = date_debut_mouvement + gyro_ui.trig_detect
 				while self.dates[i] < date_fin_trig:
 					acceleration = sqrt(self.gyro_Xs[i]**2+self.gyro_Ys[i]**2+self.gyro_Zs[i]**2)
 					acceleration_max = max(acceleration_max, acceleration)
-					if acceleration > accel_detect:
+					if acceleration > gyro_ui.accel_detect:
 						date_fin_phase = self.dates[i]
 					i+=1
 				self.phases.append({'debut_mvt' : date_debut_mouvement, 'fin_mvt' : date_fin_mouvement, 'acceleration_max' : acceleration_max})
+				logging.info("Phase detectee : no %s : debut = %s, fin = %s"%(len(self.phases),date_debut_mouvement,date_fin_mouvement))
 			else:
 				i+=1
 			self.etapes.append(len(self.phases))
@@ -218,29 +218,44 @@ class gyro_ui(object):
 
 		### GRAPHE GxGyGz
 		self.GxGyGz=self.fig.add_subplot(231)#, sharex = self.xyz)
-		#self.GxGyGz.xlabel('Temps')
-		#self.GxGyGz.ylabel('Gx,Gy,Gz')
+		self.GxGyGz.set_title(u'Vitesse angulaire')
+		self.GxGyGz.set_xlabel(u'Temps')
+		self.GxGyGz.set_ylabel(u'Deg/s')
 		self.GxGyGz.plot(self.dates,self.gyro_Xs, label='gyro_X')
 		self.GxGyGz.plot(self.dates,self.gyro_Ys, label='gyro_Y')
 		self.GxGyGz.plot(self.dates,self.gyro_Zs, label='gyro_Z')
+		#self.GxGyGz.set_xticks(self.dates)
+		self.GxGyGz.xaxis.set_major_locator(mdates.DayLocator())
+		#self.GxGyGz.xaxis.set_minor_locator(mdates.HourLocator())
+		self.GxGyGz.xaxis.set_major_formatter(ticker.FormatStrFormatter("%d %b"))
 		self.GxGyGz.legend()
 		self.GxGyGz_line = False
+		#self.fig.autofmt_xdate()
+		#plt.xticks(rotation=90)
+		logging.debug("GRAPHE GxGyGz ok")
 
 		### GRAPHE INCLINAISON
 		self.Inclinaison=self.fig.add_subplot(234, sharex = self.GxGyGz)
 		self.Inclinaison.plot(self.dates,self.angle_Ys, label='Inclinaison')
-		self.Inclinaison.legend()
+		#self.Inclinaison.legend()
+		self.Inclinaison.set_title(u'Inclinaison')
+		self.Inclinaison.set_xlabel(u'Temps')
+		self.Inclinaison.set_ylabel(u'Deg')
 		self.Inclinaison_line = False
 
 		### GRAPHE ROTATION
 		self.Rotation=self.fig.add_subplot(235, sharex = self.GxGyGz)
 		self.Rotation.plot(self.dates,self.angle_Xs, label='Rotation')
-		self.Rotation.legend()
+		#self.Rotation.legend()
+		self.Rotation.set_title(u'Rotation')
+		self.Rotation.set_xlabel(u'Temps')
+		self.Rotation.set_ylabel(u'Deg')
 		self.Rotation_line = False
 
 		### PHOTO
 		self.image_plot = self.fig.add_subplot(232)
 		self.image_plot.set_axis_off()
+		self.image_plot.set_title(u'Caméra')
 
 		### BOUTONS
 		self.fig.canvas.mpl_connect('button_press_event', self.on_click)
@@ -277,7 +292,7 @@ class gyro_ui(object):
 		'''Scan le repertoire des images
 			et peuble le dict self.images : {date:nom_fichier _image}
 		'''
-		logging.info("Scan du repertoir images : %s ..."%(rep))
+		#logging.info("Scan du repertoir images : %s ..."%(rep))
 		self.images = {}
 		self.images_dates = {}
 		if rep:
@@ -289,7 +304,7 @@ class gyro_ui(object):
 						pass
 			self.images_dates = self.images.keys()
 			self.images_dates.sort()
-			logging.info("%s images trouvées."%(len(self.images)))
+			logging.info("%s images trouvees."%(len(self.images)))
 		self.xdate_index = 0
 
 	def show_image(self):
@@ -298,13 +313,14 @@ class gyro_ui(object):
 		if len(self.images)>0:
 			date = self.images_dates[self.xdate_index]
 			image_path = self.images[date]
-			logging.debug("Image %s"%(image_path))
+			#logging.debug("Image %s"%(image_path))
 			image_file = cbook.get_sample_data(image_path)
 			image = plt.imread(image_file)
 			self.image_plot.clear()
 			self.image_plot.set_axis_off()
 			self.image_plot.imshow(image)
-			self.image_plot.text(0, 0, "Date : " + self.dates[self.xdate_index].strftime(gyro_ui.format_date))
+			self.image_plot.set_title(u'Caméra')
+			self.image_plot.text(0, 800, "Date : " + self.dates[self.xdate_index].strftime(gyro_ui.format_date))
 			if self.GxGyGz_line:
 				self.GxGyGz_line.remove()
 			self.GxGyGz_line = self.GxGyGz.vlines(date, self.GxGyGz.get_ylim()[0]*0.75, self.GxGyGz.get_ylim()[1]*0.75)
@@ -329,7 +345,7 @@ class gyro_ui(object):
 		#logging.debug('button=%d, inaxes = %s, x=%d, y=%d, xdata=%f, ydata=%f' %(event.button, event.inaxes, event.x, event.y, event.xdata, event.ydata))
 		if len(self.images)>0:
 			if event.inaxes in [self.GxGyGz, self.Inclinaison, self.Rotation] :
-				date = matplotlib_dates.num2date(event.xdata).replace(tzinfo=None)
+				date = mdates.num2date(event.xdata).replace(tzinfo=None)
 				#try:
 				self.xdate_index = self.images_dates.index(min(self.images_dates, key=lambda d: abs(d-date)))
 				logging.debug(self.xdate_index)
