@@ -6,6 +6,7 @@ import datetime
 import time
 import paho.mqtt.client as paho
 import socket
+from FGPIO.f_thread import *
 
 #Pour travailler sur les sources
 import sys
@@ -14,13 +15,24 @@ from FUTIL.my_logging import *
 
 #TODO : reconnection mqtt
 
+# Pour améliorer la qualité de la photo et maintenir un niveau de batterie ok
+# - Eteindre la camera qu'après un timeout
+#		On peut mettre ça dans le loop_forever	(voir http://www.steves-internet-guide.com/loop-python-mqtt-client/)
+# - Si la caméra a été eteinte : augmenter pause pour mise au point (ou trouver algo du type camera.mise_au_point())
+# - Si la camera n'a pas été éteinte : plus petite pause
+# Peut-on empecher le mode auto de la camera (et ne l'utiliser que lors de la sortie de veille)
+# => on gagne le temps de passage du noir à la lumière
+# mode radar auto : une photo avec leds au mini et une photo avec led au maxi + reconstitution d'une image améliorée.
+
+
+
 class mqtt_camera(object):
 	''' Une camera raspberry pi pilotée par messages mqtt
 	'''
 	CAPTURE_IMAGE = "image"
 	CAPTURE_VIDEO = "video"
-	
-	def __init__(self, mqtt_host='127.0.0.1', mqtt_port=1883, mqtt_base_topic = 'CAM', image_folder = '', video_folder = None, video_duration = 5, leds = None, low_consumption = False):
+
+	def __init__(self, mqtt_host='127.0.0.1', mqtt_port=1883, mqtt_base_topic = 'CAM', image_folder = '', video_folder = None, video_duration = 5, leds = None, tempo = 2.5, camera_timeout = 5):
 		'''Initialisation
 			mqtt_host			:	mqtt host. default = localhost
 			mqtt_port			:	default = 1883
@@ -28,8 +40,8 @@ class mqtt_camera(object):
 			image_folder
 			video_forder
 			video_duration		:	duration of recording video en seconds (default : 5s)
-			leds				: 	FGPIO.led_io 
-			low_consumption		:	if True, close camera after taking picture. Save batteries
+			leds			: 	FGPIO.led_io
+			tempo			:	temporisation (secondes) entre leds on et capture photo
 		'''
 		self.mqtt_host = mqtt_host
 		self.mqtt_port = mqtt_port
@@ -41,7 +53,6 @@ class mqtt_camera(object):
 		self.mqtt_client.on_connect = self.on_mqtt_connect
 		self.mqtt_client.on_message = self.on_mqtt_message
 		self.mqtt_client.on_disconnect = self.on_mqtt_disconnect
-		self.low_consumption = low_consumption
 		#todo : faire getter/setter
 		self.image_folder = image_folder
 		if self.image_folder != '' and self.image_folder[-1]!= '/':
@@ -54,22 +65,71 @@ class mqtt_camera(object):
 			self.video_folder = self.image_folder
 		self.video_duration = video_duration
 		self.camera = None
-		if not self.low_consumption:
-			self.init_camera()
+		self.thread = None
+		self.status = "stop"
+		self.starting_time = 0
 		self.leds = leds
+		self.init_time_camera = tempo
+		self.camera_timeout = camera_timeout
+		self.init_camera()
 		self.mqtt_connect()
-	
+
 	def init_camera(self):
-		'''Try to start the camera
+		'''Start the camera and the leds
+		if the camera is not started,
+			start it
+			switch on the leds
+			wait for self.init_time_camera
+		execute un thread qui va éteindre la camera et les leds
 		'''
-		if not self.camera:
+		logging.debug('Camera status : %s.'%self.status)
+		if self.status == 'stop' or not self.camera or self.camera.closed:
+			self.status = 'starting'
+			logging.debug('Camera status : %s.'%self.status)
+			if self.leds:
+				self.leds.on()
 			try:
-				self.camera = picamera.PiCamera()
+				self.camera = picamera.PiCamera() # TODO : pour affiner resolution, ...
 				self.camera.led = False
 			except:
-				logging.warning("Can't open the camera.")
-	
-			
+				pass
+			self.starting_time = time.time()
+			time.sleep(self.init_time_camera)
+			self.thread_end_time = time.time() + self.camera_timeout
+			self.status = 'start'
+			logging.debug('Camera status : %s.'%self.status)
+			self.thread = f_thread(self._stop_camera)
+			self.thread.start()
+			return True
+		elif self.status == 'starting':
+			logging.debug('Camera status : %s.'%self.status)
+			return False
+		else:
+			logging.debug('Camera status : %s.'%self.status)
+			self.thread_end_time = time.time() + self.camera_timeout
+			return True
+
+
+	def _stop_camera(self):
+		'''for threading
+		'''
+		if time.time() > self.thread_end_time:
+			self.stop_camera()
+			self.thread.stop()
+			self.thread = None
+		else:
+			time.sleep(0.05)
+
+	def stop_camera(self):
+		'''Stop the camera and the leds
+		'''
+		if self.leds:
+			self.leds.off()
+		if self.camera:
+			self.camera.close()
+		self.status = 'stop'
+		logging.debug('Camera status : %s.'%self.status)
+
 	def mqtt_connect(self):
 		'''Connect to the MQTT broker
 		'''
@@ -82,46 +142,38 @@ class mqtt_camera(object):
 				logging.error("Mqtt server : Connection refused")
 				time.sleep(30)
 				logging.error("Mqtt server : re-connection...")
-		
+
 	def captureImage(self):
 		'''Capture image
 		'''
 		#TODO : peut etre format de date en UTC (pour éviter pbs de changement heure)
-		if self.leds:
-			self.leds.on()
-			time.sleep(0.05)
-		file = self.image_folder + 'img' + str(datetime.datetime.now()).replace(':','-') + '.png'
-		self.init_camera()
-		if self.camera:
-			self.camera.capture(file, format = 'png')
-			self.mqtt_send(self.mqtt_base_topic+'png_stored',file)
-			logging.debug("Image %s capturée"%file)
-			if self.low_consumption :
-				self.camera.close()
-		if self.leds:
-			self.leds.off()
-	
+		logging.debug("captureImage start...")
+		if self.init_camera():
+			file = self.image_folder + 'img' + str(datetime.datetime.now()).replace(':','-') + '.png'
+			if self.camera:
+				self.camera.capture(file, format = 'png')
+				logging.debug("Image %s captured"%file)
+				self.mqtt_send(self.mqtt_base_topic+'png_stored',file)
+			else:
+				logging.debug("Camera Error. Image not captured")
+		else:
+			logging.debug("Camera buzy. Image not captured")
+
 	def captureVideo(self, duration = None):
-		'''Capture a short Video 
+		'''Capture a short Video
 			- duration		: duration of recording video en seconds (default : mqtt_camera duration)
 		'''
-		if self.leds:
-			self.leds.on()
+		self.init_camera()
 		if not duration:
 			duration = self.video_duration
 		file = self.video_folder + 'vid' + str(datetime.datetime.now()).replace(':','-') + '.h264'
 		logging.debug("Video start...")
-		self.init_camera()
 		if self.camera:
 			self.camera.start_recording(file, format = 'h264')
 			time.sleep(duration)
 			self.camera.stop_recording()
-			logging.debug("Video %s capturée"%file)
-			if self.low_consumption :
-				self.camera.close()
-		if self.leds:
-			self.leds.off()
-	
+		logging.debug("Video %s capturée"%file)
+
 	def mqtt_send(self, topic, payload):
 		'''Send a mqtt message
 		'''
@@ -131,15 +183,15 @@ class mqtt_camera(object):
 			self.mqtt_client.publish(topic, payload)
 		except socket.error:
 			logging.error("Mqtt server : Connection refused")
-	
+
 	def on_mqtt_connect(self, client, userdata, flags, rc):
 		'''Callback function on_connect
 		'''
 		logging.info("MQTT connected")
 		self.mqtt_client.subscribe(self.mqtt_base_topic+"#")
 		logging.debug("MQTT subscribe : %s"%self.mqtt_base_topic+"#")
-		
-		
+
+
 	def on_mqtt_message(self, client, userdata, msg):
 		'''Callback function on_message
 		'''
@@ -156,20 +208,19 @@ class mqtt_camera(object):
 		time.sleep(30)
 		logging.error("MQTT : trying reconnect")
 		self.mqtt_client.reconnect()
-		
+
 	def loop_forever(self):
 		'''loop forever and wait mqtt messages
 		'''
 		while True:
 			try:
 				self.mqtt_client.loop_forever()
-			except:
-				time.sleep(5)
-				
-	
+			except Exception as e:
+				logging.debug("Error on mqtt_client.loop_forever() : %s"%e)
+				time.sleep(2)
+
+
 if __name__ == '__main__':
-	my_logging(console_level = DEBUG, logfile_level = DEBUG, details = False)	
+	my_logging(console_level = DEBUG, logfile_level = DEBUG, details = False)
 	cam = mqtt_camera(image_folder = './capture/', mqtt_base_topic = 'FILEUROPE/CAM')
 	cam.loop_forever()
-
-		

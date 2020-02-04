@@ -6,6 +6,10 @@ After=network-online.target
 ExecStart=/opt/FGYRO/fgyro.sh
 User=root
 KillMode=process
+RemainAfterExit=no
+Restart=on-failure
+RestartSec=5s
+
 
 [Install]
 WantedBy=multi-user.target

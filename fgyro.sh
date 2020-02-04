@@ -1,3 +1,3 @@
 #! /bin/sh
 cd /opt/FGYRO
-python main.py 
+sudo python main.py 

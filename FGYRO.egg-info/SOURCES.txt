@@ -4,6 +4,8 @@ fgyro.service
 fgyro.sh
 setup.py
 FGYRO/__init__.py
+FGYRO/gyro_3D.py
+FGYRO/gyro_3D_test.py
 FGYRO/gyro_db.py
 FGYRO/gyro_ui.py
 FGYRO/mqtt_camera.py

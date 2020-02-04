@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import shutil 
+import shutil
 import os
 from setuptools import setup, find_packages
 
 import FGYRO
- 
+
 setup(
     name='FGYRO',
     version=FGYRO.__version__,
@@ -34,5 +34,5 @@ except OSError:
 	pass
 
 #shutil.copy('main.py', '/opt/FGYRO')
-shutil.copy('fgyro.service', '/opt/FGYRO')
-shutil.copy('fgyro.sh', '/opt/FGYRO')
+#shutil.copy('fgyro.service', '/opt/FGYRO')
+#shutil.copy('fgyro.sh', '/opt/FGYRO')

@@ -117,6 +117,8 @@ class mqtt_camera(object):
 			self.stop_camera()
 			self.thread.stop()
 			self.thread = None
+		else:
+			time.sleep(0.05)
 
 	def stop_camera(self):
 		'''Stop the camera and the leds
