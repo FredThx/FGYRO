@@ -31,6 +31,10 @@ from FGPIO.f_thread import *
 #from FGYRO.gyro_3D import *
 from pathlib import Path
 
+#Pour supprimer les messages de matplotlib
+mpl_logger = logging.getLogger('matplotlib')
+mpl_logger.setLevel(logging.WARNING)
+
 class gyro_ui(object):
 	'''Classe pour interface graphique de visualisation des données de remuage
 	'''
@@ -39,7 +43,7 @@ class gyro_ui(object):
 	#date_formatter =  ticker.FormatStrFormatter('%d %b') # for axis
 	ratio_gyro = 131.0 #Gyro : 1/131 degrés/secondes
 	ratio_acceleration = 16384.0 #Acceleration : 1/16384 g (g=9.81 N.s-2)
-	seuil_gyro_mvt = 50.0 / 131.0 #Seuil au delà duquel une vitesse angulaire est considéré comme un mvt
+	seuil_gyro_mvt = 200.0 / 131.0 #Seuil au delà duquel une vitesse angulaire est considéré comme un mvt
 	accel_detect = 1000.0 / 131.0
 	trig_detect = datetime.timedelta(minutes=10)
 	def __init__(self, bdd, images_folder = None):
@@ -87,33 +91,19 @@ class gyro_ui(object):
 				self.gyro_Xs.append(data['gyro_X']/gyro_ui.ratio_gyro)
 				self.gyro_Ys.append(data['gyro_Y']/gyro_ui.ratio_gyro)
 				self.gyro_Zs.append(data['gyro_Z']/gyro_ui.ratio_gyro)
-				#Calculs angulaires
-				acc = sqrt(data['acc_X']**2+data['acc_Y']**2+data['acc_Z']**2)
-				angle_YZ = acos(data['acc_X']/acc)
-				sin_X = data['acc_Y']/(acc*sin(angle_YZ))
-				if sin_X > 1:
-					sin_X = 1
-				if sin_X < -1:
-					sin_X = -1
-				self.angle_Xs.append(asin(sin_X) * 180 / pi)
-				self.angle_Ys.append(angle_YZ * 180 / pi)#A renommer angle_YZs
+
+				###Calculs angulaires
+
+				# Accélération totale : c'est la pesanteur
+				acc = sqrt(data['acc_X']**2 + data['acc_Y']**2 + data['acc_Z']**2)
+				#Rotation autour de l'axe de la bouteille (c'est le roulis)
+				self.angle_Xs.append(asin(data['acc_Z']/acc) * 180 / pi)
+				#Inclinaison de la bouteille vers le bas (c'est le tanguage)
+				self.angle_Ys.append(acos(data['acc_X']/acc) * 180 / pi)
 				#self.angle_Zs.append(0)
-				#Initialement
-				#self.angle_Xs.append(atan2(data['acc_Y'],data['acc_Z']) * 180 / pi)
-				#self.angle_Ys.append(atan2(data['acc_Z'],data['acc_X']) * 180 / pi)
-				#self.angle_Zs.append(atan2(data['acc_X'],data['acc_Y']) * 180 / pi)
 			except Exception as e:
 				print(e)
-			# logging.debug("Date : %s, acc_X : %s, acc_Y : %s, acc_Z : %s, gyro_X : %s, gyro_Y : %s, gyro_Z : %s, angle_X : %s, angle_Y : %s"%( \
-			# 		self.dates[-1], \
-			# 		self.acc_Xs[-1], \
-			# 		self.acc_Ys[-1], \
-			# 		self.acc_Zs[-1], \
-			# 		self.gyro_Xs[-1], \
-			# 		self.gyro_Ys[-1], \
-			# 		self.gyro_Zs[-1], \
-			# 		self.angle_Xs[-1], \
-			# 		self.angle_Ys[-1]))
+
 		logging.info("%s mesures trouvees."%(len(self.dates)))
 
 		#Moyenne des vitesses angulaires pour auto-calibration
@@ -208,8 +198,8 @@ class gyro_ui(object):
 
 		### GRAPHE XYZ
 		#self.xyz=self.fig.add_subplot(231)
-		#self.xyz.xlabel('Temps')
-		#self.xyz.ylabel('x,y,z')
+		#self.xyz.set_xlabel('Temps')
+		#self.xyz.set_ylabel('x,y,z')
 		#self.xyz.plot(self.dates, self.acc_Xs, label='acc_X')
 		#self.xyz.plot(self.dates, self.acc_Ys, label='acc_Y')
 		#self.xyz.plot(self.dates, self.acc_Zs, label='acc_Z')
